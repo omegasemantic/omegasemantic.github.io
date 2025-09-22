@@ -1,0 +1,28 @@
+body {
+  margin: 2rem;
+  max-width: 460px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1,p, .nav {
+  font-family: monospace, sans-serif;
+  font-size: 1rem;
+  color: #404040
+}
+
+h1 {
+    margin-top:42px;
+    margin-bottom:30px;
+    font-weight:normal;
+    text-align:center;
+}
+
+p {
+    line-height:24px;
+}
+
+@media (max-width: 767px) {
+    .site-content {
+        padding: 3rem 0;
+    }

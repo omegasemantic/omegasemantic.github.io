@@ -1,0 +1,26 @@
+Jekyll Upgrade Path (lean setup)
+
+1. Includes
+   - Put nav, logo, footer in _includes/.
+   - One change updates everywhere.
+
+2. Collections
+   - Use _examples/ for Example pages.
+   - Loop with site.examples for menus.
+
+3. Front matter variables
+   - Add metadata per page (title, order, category).
+   - Sort or filter loops with these.
+
+4. Custom layouts
+   - Create layouts like example.html.
+   - Different content types can look different.
+
+5. Assets organization
+   - Store CSS, JS, images in assets/.
+   - Keep project root tidy.
+
+6. Optional extras
+   - Plugins (GitHub Pages safe mode limits apply).
+   - SEO tags, sitemap, RSS feed.
+
