@@ -1,22 +1,41 @@
 # Jekyll build output
 _site/
-.jekyll-cache/
 .sass-cache/
-
-# Bundler
+.jekyll-cache/
 .bundle/
 vendor/
 
-# Node (if you ever use plugins/themes that need it)
-node_modules/
+# Ruby
+*.gem
+*.rbc
 
-# Editor swap/backup/undo files
+# Logs and temp
+*.log
+*.tmp
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Vim / Emacs / editor swap + backup + undo
 *~
 *.swp
 *.swo
+*.swx
 *.un~
+.*.swp
+.*.swo
+.*.swx
+.*.un~
 
-# OS files
-.DS_Store
-Thumbs.db
+# Vim swap/backup/undo
+*.swp
+*.swo
+*.swx
+*.un~
+*~
+.*.swp
+.*.swo
+.*.swx
+.*.un~
 

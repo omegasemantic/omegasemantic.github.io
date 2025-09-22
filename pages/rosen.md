@@ -11,6 +11,10 @@ Describe the essence of your dilemma, said Rosen.
 
 Authority desires the status of my situation, said Pasupe.
 
+Does Authority inform why the sudden interest? said Rosen.
+
+The most recent incident gave Authority cause to come to attention, said Pasupe.
+
 You can put anything you want here.
 
 The cat in the hat.  

@@ -1,28 +1,38 @@
+/* Base layout: mobile first */
 body {
-  margin: 2rem;
-  max-width: 460px;
-  margin: auto;
-  padding: 20px;
+  max-width: 100%;        /* DON'T TOUCH: keeps mobile full width */
+  margin: 0;              /* DON'T TOUCH: prevents unwanted centering on phones */
+  padding: 1rem;          /* safe to tweak: inner spacing on mobile */
+  font-family: monospace, sans-serif;  /* safe to tweak: font choice */
+  font-size: 1rem;        /* safe to tweak: base text size */
+  color: #404040;         /* safe to tweak: text color */
 }
 
-h1,p, .nav {
-  font-family: monospace, sans-serif;
-  font-size: 1rem;
-  color: #404040
-}
-
+/* Headings */
 h1 {
-    margin-top:42px;
-    margin-bottom:30px;
-    font-weight:normal;
-    text-align:center;
+  margin-top: 2.5rem;     /* safe to tweak: vertical spacing */
+  margin-bottom: 2rem;    /* safe to tweak: vertical spacing */
+  font-weight: normal;    /* safe to tweak: boldness */
+  text-align: center;     /* safe to tweak: alignment */
 }
 
+/* Paragraphs */
 p {
-    line-height:24px;
+  line-height: 1.5;       /* safe to tweak: readability */
+  margin-bottom: 1.5rem;  /* safe to tweak: spacing between paragraphs */
 }
 
-@media (max-width: 767px) {
-    .site-content {
-        padding: 3rem 0;
-    }
+/* Navigation */
+.nav {
+  font-size: 1rem;        /* safe to tweak: menu size */
+}
+
+/* Tablet/desktop */
+@media (min-width: 768px) {
+  body {
+    max-width: 460px;     /* DON'T TOUCH: caps width on bigger screens */
+    margin: 0 auto;       /* DON'T TOUCH: centers layout on bigger screens */
+    padding: 2rem;        /* safe to tweak: spacing on larger screens */
+  }
+}
+
