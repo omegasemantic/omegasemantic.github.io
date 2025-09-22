@@ -1,0 +1,22 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
+
+# Bundler
+.bundle/
+vendor/
+
+# Node (if you ever use plugins/themes that need it)
+node_modules/
+
+# Editor swap/backup/undo files
+*~
+*.swp
+*.swo
+*.un~
+
+# OS files
+.DS_Store
+Thumbs.db
+
