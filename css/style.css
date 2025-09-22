@@ -3,16 +3,11 @@ body {
   max-width: 100%;        /* DON'T TOUCH: keeps mobile full width */
   margin: 0;              /* DON'T TOUCH: prevents unwanted centering on phones */
   padding: 1rem;          /* safe to tweak: inner spacing on mobile */
-  font-family:georgia,serif /*monospace, sans-serif;  /* safe to tweak: font choice */
+  font-family: "Times New Roman","Trebuchet",monospace,sans-serif;  /*monospace, sans-serif;  /* safe to tweak: font choice */
   font-size: 1rem;        /* safe to tweak: base text size */
   color: #404040;         /* safe to tweak: text color */
 }
 
-body {
-  font-family: Consolas, Menlo, Monaco, "Lucida Console",
-               "Liberation Mono", "DejaVu Sans Mono",
-               "Bitstream Vera Sans Mono", monospace;
-}
 
 
 
