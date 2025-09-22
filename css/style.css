@@ -8,6 +8,15 @@ body {
   color: #404040;         /* safe to tweak: text color */
 }
 
+body {
+  font-family: Consolas, Menlo, Monaco, "Lucida Console",
+               "Liberation Mono", "DejaVu Sans Mono",
+               "Bitstream Vera Sans Mono", monospace;
+}
+
+
+
+
 /* Headings */
 h1 {
   margin-top: 2.5rem;     /* safe to tweak: vertical spacing */
