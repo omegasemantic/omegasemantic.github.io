@@ -1,5 +1,5 @@
 ---
-title: red
+title: red things are
 layout: default
 ---
 

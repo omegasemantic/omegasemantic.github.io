@@ -3,8 +3,8 @@ body {
   max-width: 100%;        /* DON'T TOUCH: keeps mobile full width */
   margin: 0;              /* DON'T TOUCH: prevents unwanted centering on phones */
   padding: 1rem;          /* safe to tweak: inner spacing on mobile */
-  font-family:  monospace, sans-serif;  /*monospace, sans-serif;  /* safe to tweak: font choice */
-  font-size: 1.0rem;        /* safe to tweak: base text size */
+  font-family: sans-serif;  /*monospace, sans-serif;  /* safe to tweak: font choice */
+  font-size: 1.4rem;        /* safe to tweak: base text size */
   color: #404040;         /* safe to tweak: text color */
 }
 
@@ -13,12 +13,12 @@ body {
 
 
 /* Headings */
-h1,h2 {
+h1 {
   margin-top: 2.5rem;     /* safe to tweak: vertical spacing */
   margin-bottom: 2rem;    /* safe to tweak: vertical spacing */
   font-weight: normal;    /* safe to tweak: boldness */
   text-align: center;     /* safe to tweak: alignment */
-  font-size: 1.0rem;
+  font-size: 1.4rem;
 }
 
 /* Paragraphs */
