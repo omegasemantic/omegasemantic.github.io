@@ -1,17 +1,18 @@
-/* Shared wrapper for nav and main */
-.nav, main, .main {
-  width: 100%;        /* full width on mobile */
-  max-width: 100%;
+/* Mobile first, clean width test */
+body {
+  background: pink;                 /* keep as a visual marker */
   margin: 0;
-  padding: 0;
+  padding: 1rem;                    /* safe spacing */
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 1rem;
 }
 
-/* Tablet/desktop: cap width + center */
+/* Tablet/desktop */
 @media (min-width: 768px) {
-  .nav, main, .main {
-    max-width: 460px;
-    margin: 0 auto;
-    padding: 2rem;
+  body {
+    max-width: 460px;               /* cap width only on bigger screens */
+    margin: 0 auto;                 /* center it */
+    background: lightblue;          /* prove the media query kicks in */
   }
 }
 
