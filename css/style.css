@@ -14,10 +14,15 @@ body {
 /* Headings */
 h1,h2 {
   margin-top: 2.5rem;     /* safe to tweak: vertical spacing */
+  padding-top:1rem;
   margin-bottom: 2rem;    /* safe to tweak: vertical spacing */
   font-weight: normal;    /* safe to tweak: boldness */
   text-align: left ;     /* safe to tweak: alignment */
   font-size: 1.1rem;
+}
+
+h2 {
+    text-align:left;
 }
 
 /* Paragraphs */

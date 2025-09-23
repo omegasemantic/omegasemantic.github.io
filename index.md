@@ -3,5 +3,7 @@ layout: default
 title: Home
 ---
 
-Welcome to my omega Jekyll test site.
+# Welcome 
+
+omega jekyll test site
 
