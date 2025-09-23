@@ -9,15 +9,12 @@ body {
 }
 
 
-
-
-
 /* Headings */
 h1,h2 {
   margin-top: 2.5rem;     /* safe to tweak: vertical spacing */
   margin-bottom: 2rem;    /* safe to tweak: vertical spacing */
   font-weight: normal;    /* safe to tweak: boldness */
-  text-align: center;     /* safe to tweak: alignment */
+  text-align: left ;     /* safe to tweak: alignment */
   font-size: 1.0rem;
 }
 
@@ -30,7 +27,17 @@ p {
 /* Navigation */
 .nav {
   font-size: 1rem;        /* safe to tweak: menu size */
+  text-align: center ;     /* safe to tweak: alignment */
+  line-height: 1.5;       /* safe to tweak: readability */
+  margin-bottom: 1.5rem;  /* safe to tweak: spacing between paragraphs */
+  color: #404040
 }
+
+#main {
+    color:red
+    text-align: center;
+}
+
 
 /* Tablet/desktop */
 @media (min-width: 768px) {
