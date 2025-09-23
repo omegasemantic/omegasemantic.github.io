@@ -1,2 +1,5 @@
-#title: My big fat Site
+collections:
+  stories:
+    output: true
+    permalink: /stories/:name/
 
