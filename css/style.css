@@ -1,6 +1,6 @@
 /* Mobile first, clean width test */
 body {
-  background: pink;                 /* keep as a visual marker */
+  background: red;                 /* keep as a visual marker */
   margin: 0;
   padding: 1rem;                    /* safe spacing */
   font-family: 'Roboto Mono', monospace, sans-serif;
@@ -12,7 +12,7 @@ body {
   body {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
-    background: lightblue;          /* prove the media query kicks in */
+    background: yellow;          /* prove the media query kicks in */
   }
 }
 
