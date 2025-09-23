@@ -1,7 +1,12 @@
 /* Base layout: mobile first */
 body {
   max-width: 100%;        /* DON'T TOUCH: keeps mobile full width */
-
+  margin: 0;              /* DON'T TOUCH: prevents unwanted centering on phones */
+  padding: 1rem;          /* safe to tweak: inner spacing on mobile */
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 1.0rem;        /* safe to tweak: base text size */
+  color: #404040;         /* safe to tweak: text color */
+}
 
 
 /* Headings */
