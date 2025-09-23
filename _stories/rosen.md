@@ -7,7 +7,7 @@ layout: default
 
 
 
-# : Rosen, Letter, and Pasupe :
+# : Rosen, Letter, and Pasupe 
 
 Rosen, said Pasupe, this letter from Authority: I would  you offer a morsel of advice.
 
