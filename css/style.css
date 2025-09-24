@@ -1,28 +1,34 @@
 /* Mobile first, clean width test */
 body {
-  background: red;                 /* keep as a visual marker */
+  background:;                 /* keep as a visual marker */
   margin: 0;
   padding: 1rem;                    /* safe spacing */
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
+  color:#404040;
 }
 
-.logo {
-    color:blue;
+.logo,.footnote {
+    color:#404040;
 }
 
 h1,h2 {
     font-size:1.1rem;
     font-weight:normal;
-    color:red;
+    color:#404040;
     padding-top:40px;
 }
 
 
 /* Nav Bar styling */
+.nav {
+    padding-top:60px;
+    padding-bottom:40px;
+}
+
 .nav a {
     text-decoration: none;
-    color: green;
+    color: #404040;
 }
 
 .nav  a:hover; {
@@ -41,13 +47,13 @@ h1,h2 {
   margin-bottom: 1.5rem;   /* spacing between items (like double-spaced text) */
 }
 
-.ObjectList a {
+.ObjectList  a {
   color: #404040;          /* match your body text color */
   text-decoration: none;   /* remove underline */
 }
 
 .ObjectList a:hover {
-  color: #000;             /* black on hover */
+  color: red;             /* black on hover */
 }
 
 /* Tablet/desktop */
@@ -55,7 +61,7 @@ h1,h2 {
   body {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
-    background: yellow;          /* prove the media query kicks in */
+    background: ;          /* prove the media query kicks in */
   }
 }
 
