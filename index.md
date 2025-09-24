@@ -12,3 +12,12 @@ title: Home
 IpsumIpsum dolor sit amet, consectetur adipiscing elit. 
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+
+```mermaid
+graph TD
+    A[Start] --> B{Choice}
+    B -->|Yes| C[Option 1]
+    B -->|No| D[Option 2]
+```

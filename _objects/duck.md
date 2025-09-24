@@ -4,22 +4,71 @@ layout: default
 hide_nav: true
 ---
 
-# : the story of duck
+: the journey of duck  
 
-Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+> A great wind blew Duck far from land and dropped Duck upon the vastness of the ocean.  
 
-Arcu bibendum at varius vel.
+Good Feathers! said Duck.  
 
-Augue lacus viverra vitae congue eu consequat ac.
+What a calamity!   
 
-Lobortis scelerisque fermentum dui faucibus in, Dignissim cras tincidunt lobortis feugiat.
+Duck's beak snapped fast at puny fish swimming by so Duck found food.  
 
-Porttitor eget dolor morbi non arcu risus.  
-Duis convallis convallis tellus id interdum velit laoreet.  
+But the thirst of Duck could not be quenched.  
 
-Lectus urna duis convallis convallis tellus Augue interdum velit euismod in pellentesque massa placerat.
+Then Duck found Rock.  
 
-Nibh mauris cursus mattis molestie.
+Solitary Duck, said Rock.  
 
+Climb me and take a drink of rain from the puddle on my back.  
 
+\*  
+
+Thank you, Rock, said Duck.  
+
+I certainly needed a drink.  
+
+Mollymawk zoomed down to shoo Duck off Rock.  
+
+Off Rock! Shoo! said Mollymawk.  
+
+\*
+
+Back in the ocean, Duck said:  
+
+I am caught in an eddy I am sure.  
+
+Now I am close to Rock.  
+
+Now I am far from Rock.
+
+Now I see front of Rock.  
+
+Now I see back of Rock.  
+
+But will I never see all my pretty chicks again?  
+
+*  
+
+I have much to ponder, said Duck, and only my tiny duck brain to ponder with.  
+
+I sense I am self aware.  
+
+I appear to recognise a diurnal rotation of the heavens.  
+
+Thus, I believe I know a day starts, a day ends, and then a new day begins.  
+
+However, I occupy one discrete moment, and then the next.
+
+And within each moment, I have not the slightest notion or sensation of time.  
+
+*
+
+At least I have Rock, said Duck.  
+
+I should obtain a drink now and then.  
+
+And I can to some extent observe if I am coming or if I am going.  
+
+I wonder how long I exist? said Duck.  
 

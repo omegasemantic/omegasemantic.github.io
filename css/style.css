@@ -8,6 +8,10 @@ body {
   color:#404040;
 }
 
+blockquote {
+    color:red;
+}
+
 .ObjectList {
     text-decoration:none;
 }
