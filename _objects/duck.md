@@ -1,6 +1,7 @@
 ---
 title: the story of duck
 layout: default
+hide_nav: true
 ---
 
 # : the story of duck

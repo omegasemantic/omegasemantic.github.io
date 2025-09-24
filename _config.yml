@@ -1,5 +1,5 @@
 collections:
-  stories:
+  objects:
     output: true
-    permalink: /stories/:name/
+    permalink: /objects/:name/
 

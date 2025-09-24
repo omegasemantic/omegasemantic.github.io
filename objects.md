@@ -4,7 +4,9 @@ title: Objects
 permalink: /objects/
 ---
 
-Sed stories  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+<h2>: objectsthis page caalled stories.mdIpsum dolor sit amet</h2>
+objects
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 <ul class="ObjectList">
   {% for object in site.objects %}

@@ -7,30 +7,46 @@ body {
   font-size: 1.1rem;
 }
 
+.logo {
+    color:blue;
+}
+
 h1,h2 {
     font-size:1.1rem;
     font-weight:normal;
     color:red;
+    padding-top:40px;
 }
 
 
-/* Stories list styling */
-.StoriesList {
+/* Nav Bar styling */
+.nav a {
+    text-decoration: none;
+    color: green;
+}
+
+.nav  a:hover; {
+    color:red ! important;
+    font-weight:bold;
+}
+
+/* Object list styling */
+.ObjectsList {
   list-style: none;        /* remove bullets */
   padding: 0;              /* reset default padding */
   margin: 0;               /* reset default margin */
 }
 
-.StoriesList li {
+.ObjectList li {
   margin-bottom: 1.5rem;   /* spacing between items (like double-spaced text) */
 }
 
-.StoriesList a {
+.ObjectList a {
   color: #404040;          /* match your body text color */
   text-decoration: none;   /* remove underline */
 }
 
-.StoriesList a:hover {
+.ObjectList a:hover {
   color: #000;             /* black on hover */
 }
 
