@@ -8,7 +8,7 @@ permalink: /stories/
 
 Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-<ul>
+<ul class="StoriesList">
   {% for story in site.stories %}
     <li><a href="{{ story.url | relative_url }}">{{ story.title }}</a></li>
   {% endfor %}
