@@ -8,6 +8,18 @@ body {
   color:#404040;
 }
 
+.ObjectList {
+    text-decoration:none;
+}
+.site-nav {
+    color:red;
+}
+
+.site-nav a {
+    text-decoration: none;
+    color: #404040;
+}
+
 .logo,.footnote {
     color:#404040;
 }
@@ -23,7 +35,7 @@ h1,h2 {
 /* Nav Bar styling */
 .nav {
     padding-top:60px;
-    padding-bottom:40px;
+    padding-bottom:20px;
 }
 
 .nav a {

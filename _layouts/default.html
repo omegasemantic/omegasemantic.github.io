@@ -10,15 +10,11 @@
 </head>
 <body>
 
-    {% unless page.hide_nav %}
 <div class="nav">
   <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}"><span class="logo">+|+</span></a> :
-    <a href="{{ '/about.html' | relative_url }}"><span class="menu">def</span></a> :
-    <a href="{{ '/objects/' | relative_url }}"><span class="menu">obj</span></a> 
+      <a href="{{ '/' | relative_url }}"><span class="logo">+|+</span></a> 
   </nav>
 </div>
-{% endunless %}
 
 <main>
   {{ content }}
