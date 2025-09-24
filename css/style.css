@@ -9,7 +9,9 @@ body {
 }
 
 blockquote {
-    color:red;
+    color:#404040;
+    font-style:italic;
+    margin-left:px;
 }
 
 .ObjectList {

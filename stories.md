@@ -5,9 +5,9 @@ permalink: /objects/
 ---
 
 
-<ul class="ObjectList">
+<div class="ObjectList">
   {% for object in site.objects %}
-    <li><a href="{{ object.url | relative_url }}">{{ object.title }}</a></li>
+    <p>: <a href="{{ object.url | relative_url }}">{{ object.title }}</a></p>
   {% endfor %}
-</ul>
+</div>
 
