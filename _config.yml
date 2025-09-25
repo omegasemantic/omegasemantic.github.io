@@ -1,5 +1,15 @@
+# _config.yml
+
+# collections
 collections:
   objects:
     output: true
     permalink: /objects/:name/
+  diagrams:
+    output: true   # gives you a local URL
+    permalink: /diagrams/:name/
+
+# exclude diagrams when building for production
+exclude:
+  - _diagrams/*
 

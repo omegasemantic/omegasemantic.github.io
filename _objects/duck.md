@@ -6,6 +6,27 @@ hide_nav: true
 
 : the journey of duck  
 
+
+```
+  +-----------------------+
+  |                       |
+  |     +------+  car   +---+  car   +---+
+  |     |  A   | -----> | B | -----> | D |
+  |     +------+        +---+        +---+
+  |       |                            ^
+  |       | car                        |
+  |       v                            |
+  | car +------+  car                  |
+  |     |  C   | ----------------------+
+  |     +------+
+  |       |
+  |       | car
+  |       v
+  |     +------+
+  +---> |  E   |
+        +------+
+```
+
 > A great wind blew Duck far from land and dropped Duck upon the vastness of the ocean.  
 
 Good Feathers! said Duck.  

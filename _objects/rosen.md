@@ -6,7 +6,7 @@ layout: default
 
 : Rosen, Letter, and Pasupe      
        
-> As they gazed at the Letter they both began to feel oppressed by its consequence.  
+> They gazed at Letter; oppressed by its consequence.  
   
 Rosen, said Pasupe, this Letter from Authority: I would you offer a morsel of advice.   
       
