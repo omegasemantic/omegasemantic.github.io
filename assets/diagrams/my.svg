@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="361.8" height="279.8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Generated at Thu Sep 25 19:32:46 2025 by:
+  Graph::Easy v0.76
+  Graph::Easy::As_svg v0.28
+-->
+
+<title>Untitled graph</title>
+<defs>
+ <!-- open arrow -->
+ <g id="ah" stroke-linecap="round" stroke-width="1">
+  <line x1="-8" y1="-4" x2="1" y2="0" />
+  <line x1="1" y1="0" x2="-8" y2="4" />
+ </g>
+
+ <!-- class definitions -->
+ <style type="text/css"><![CDATA[
+ .edge {
+  font-size: 13px;
+  stroke: black;
+  text-align: center;
+ }
+ .graph {
+  font-size: 16px;
+  text-align: center;
+ }
+ .node {
+  font-size: 16px;
+  text-align: center;
+ }
+ ]]></style>
+</defs>
+
+<!-- graph background with border (mainly for printing) -->
+<rect x="0.5" y="0.5" width="359.8" height="277.8" fill="white" stroke="white" />
+
+<g id="2" class="edge">
+ <!-- from bird to room -->
+ <!-- horizontal -->
+ <line x1="76.04" y1="139.4" x2="131.36" y2="139.4" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" x="132.36" y="139.4"/>
+</g>
+
+<g id="4" class="edge">
+ <!-- from room to boom! -->
+ <!-- horizontal -->
+ <line x1="210.44" y1="139.4" x2="265.76" y2="139.4" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" x="266.76" y="139.4"/>
+</g>
+
+<g id="6" class="edge">
+ <!-- from dog to room -->
+ <!-- vertical -->
+ <line x1="171.4" y1="169.2" x2="171.4" y2="219.4" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" transform="translate(171.4 168.2)rotate(-90)"/>
+</g>
+
+<g id="8" class="edge">
+ <!-- from cat to room -->
+ <!-- vertical -->
+ <line x1="171.4" y1="59.4" x2="171.4" y2="109.6" stroke="#000000" />
+ <use stroke="#000000" xlink:href="#ah" transform="translate(171.4 110.6)rotate(90)"/>
+</g>
+
+<g id="0" class="node">
+ <!-- bird, rect -->
+ <rect fill="#ffffff" height="43.8" stroke="#000000" width="51" x="17.5" y="117.5" />
+ <text x="43" y="145" style="font-family:serif" fill="#000000" text-anchor="middle">bird</text>
+</g>
+
+<g id="1" class="node">
+ <!-- room, rect -->
+ <rect fill="#ffffff" height="43.8" stroke="#000000" width="63" x="139.9" y="117.5" />
+ <text x="171" y="145" style="font-family:serif" fill="#000000" text-anchor="middle">room</text>
+</g>
+
+<g id="3" class="node">
+ <!-- boom!, rect -->
+ <rect fill="#ffffff" height="43.8" stroke="#000000" width="69" x="274.3" y="117.5" />
+ <text x="308" y="145" style="font-family:serif" fill="#000000" text-anchor="middle">boom!</text>
+</g>
+
+<g id="5" class="node">
+ <!-- dog, rect -->
+ <rect fill="#ffffff" height="35" stroke="#000000" width="63" x="139.9" y="226.3" />
+ <text x="171" y="249" style="font-family:serif" fill="#000000" text-anchor="middle">dog</text>
+</g>
+
+<g id="7" class="node">
+ <!-- cat, rect -->
+ <rect fill="#ffffff" height="35" stroke="#000000" width="63" x="139.9" y="17.5" />
+ <text x="171" y="41" style="font-family:serif" fill="#000000" text-anchor="middle">cat</text>
+</g>
+
+</svg>

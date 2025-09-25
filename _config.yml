@@ -1,15 +1,30 @@
 # _config.yml
 
-# collections
+# define custom collections
 collections:
-  objects:
-    output: true
+  objects:              # content lives in _objects/
+    output: true        # generate HTML for each item
     permalink: /objects/:name/
-  diagrams:
-    output: true   # gives you a local URL
+  diagrams:             # content lives in _diagrams/
+    output: true
     permalink: /diagrams/:name/
 
-# exclude diagrams when building for production
+# exclude rules
+# by default, include everything
+# if running in production (JEKYLL_ENV=production),
+# then exclude all files under _diagrams/
 exclude:
-  - _diagrams/*
+{% if jekyll.environment == "production" %}
+  - _diagrams/**
+{% endif %}
+
+# ---- usage notes ----
+# Development (default environment):
+#   bundle exec jekyll serve
+#
+# Production build (excludes _diagrams/**):
+#   JEKYLL_ENV=production bundle exec jekyll build
+#
+# Production server run (also excludes _diagrams/**):
+#   JEKYLL_ENV=production bundle exec jekyll serve
 
