@@ -1,0 +1,9 @@
+# _config_prod.yml
+
+# --------------------------------------------------
+# Production overrides
+# --------------------------------------------------
+# Exclude the entire _sandbox/ collection in production.
+exclude:
+  - _sandbox/**
+

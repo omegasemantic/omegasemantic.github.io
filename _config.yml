@@ -1,30 +1,42 @@
 # _config.yml
 
-# define custom collections
+# --------------------------------------------------
+# Collections
+# --------------------------------------------------
 collections:
-  objects:              # content lives in _objects/
-    output: true        # generate HTML for each item
-    permalink: /objects/:name/
-  diagrams:             # content lives in _diagrams/
+  objects:                 # lives in _objects/
     output: true
-    permalink: /diagrams/:name/
+    permalink: /objects/:name/
+  sandbox:                 # lives in _sandbox/
+    output: true
+    permalink: /sandbox/:name/
+  pages:                   # lives in _pages/
+    output: true
+    permalink: /:name/
 
-# exclude rules
-# by default, include everything
-# if running in production (JEKYLL_ENV=production),
-# then exclude all files under _diagrams/
-exclude:
-{% if jekyll.environment == "production" %}
-  - _diagrams/**
-{% endif %}
+# --------------------------------------------------
+# Defaults
+# --------------------------------------------------
+# Apply a default layout to all items in _sandbox/
+defaults:
+  - scope:
+      path: "_sandbox"
+      type: sandbox
+    values:
+      layout: default
 
-# ---- usage notes ----
-# Development (default environment):
+# --------------------------------------------------
+# Exclude
+# --------------------------------------------------
+# In dev we include everything.
+exclude: []
+
+# --------------------------------------------------
+# Usage
+# --------------------------------------------------
+# Development:
 #   bundle exec jekyll serve
 #
-# Production build (excludes _diagrams/**):
-#   JEKYLL_ENV=production bundle exec jekyll build
-#
-# Production server run (also excludes _diagrams/**):
-#   JEKYLL_ENV=production bundle exec jekyll serve
+# Production (exclude sandbox via _config_prod.yml):
+#   JEKYLL_ENV=production bundle exec jekyll serve --config _config.yml,_config_prod.yml
 
