@@ -1,4 +1,18 @@
 /* Mobile first, clean width test */
+.copyright {
+    font-size:0.8rem;
+    color: #707070;
+    padding-left: 25px !important;
+}
+
+.footer {
+    background: ;
+    padding-top: 80px;
+}
+
+.main {
+    padding-bottom: 40px;
+}
 
 body {
   background:;                 /* keep as a visual marker */
@@ -32,15 +46,13 @@ blockquote p:empty {
     text-decoration:none;
 }
 
-.logo,.footnote {
+.logo {
     color:#404040;
 }
 
-h1,h2 {
+h1 {
     font-size:1.1rem;
-    font-weight:normal;
     color:#404040;
-    padding-top:40px;
 }
 
 
@@ -74,9 +86,6 @@ h1,h2 {
   text-decoration: none;   /* remove underline */
 }
 
-.ObjectList a:hover {
-  color: red;             /* black on hover */
-}
 
 /* Tablet/desktop */
 @media (min-width: 568px) {
@@ -84,6 +93,7 @@ h1,h2 {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
     background: ;          /* prove the media query kicks in */
+    padding-bottom:20px;
   }
 .nav {
     padding-left:20px !important;

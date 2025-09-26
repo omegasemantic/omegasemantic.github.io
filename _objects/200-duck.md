@@ -3,7 +3,7 @@ title: the story of duck
 layout: default
 ---
 
-: the journey of duck  
+# the journey of duck  
 
 
  > A great wind blew Duck far from land and dropped Duck upon the vastness of the ocean.  
