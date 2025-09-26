@@ -1,0 +1,10 @@
+<div class="diagram">
+[ bird ] -> [ room ] ->[boom!]
+[ dog ] -> [ room ]
+[ cat ] -> [ room]
+</div>
+
+
+ 
+
+

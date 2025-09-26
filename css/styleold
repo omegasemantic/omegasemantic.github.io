@@ -1,7 +1,14 @@
 /* Mobile first, clean width test */
+.content-wrapper {
 
+  background:blue;                 /* keep as a visual marker */
+}
+.nav {
+
+  background:green;                 /* keep as a visual marker */
+}
 body {
-  background:;                 /* keep as a visual marker */
+  background:red;                 /* keep as a visual marker */
   margin: 0;
   padding: 1rem;                    /* safe spacing */
   font-family: 'Roboto Mono', monospace, sans-serif;
@@ -9,20 +16,13 @@ body {
   color:#404040;
 }
 
-.nav { 
-    padding:2rem;
-    padding-top:1rem !important;
-    background:;
-    max-width:100%;    
-} 
-
 /* === Blockquote styling === */
 /* Blockquotes with clean vertical bar only on text lines */
 blockquote {
-  border-left: 2px dotted #707070;   /* vertical bar */
+  border-left: 2px solid #707070;   /* vertical bar */
   margin: 1.5em 0;
   padding-left: 1em;
-  color: #404040;
+  color: #444;
   font-style: italic;
 }
 
@@ -97,7 +97,7 @@ h1,h2 {
 
 /* Tablet/desktop */
 @media (min-width: 768px) {
-  main {
+  body {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
     background: ;          /* prove the media query kicks in */

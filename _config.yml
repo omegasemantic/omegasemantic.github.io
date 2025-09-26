@@ -5,6 +5,7 @@
 # --------------------------------------------------
 collections:
   objects:                 # lives in _objects/
+    sort_by: rank
     output: true
     permalink: /objects/:name/
   sandbox:                 # lives in _sandbox/
@@ -13,6 +14,9 @@ collections:
   pages:                   # lives in _pages/
     output: true
     permalink: /:name/
+
+# Don't cache
+incremental: false
 
 # --------------------------------------------------
 # Defaults
