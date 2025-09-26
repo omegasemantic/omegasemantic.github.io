@@ -63,6 +63,8 @@ h1,h2 {
 .nav {
     padding-top:60px;
     padding-bottom:20px;
+    padding-left:2px !important;
+    background:red;
 }
 
 .nav a {
