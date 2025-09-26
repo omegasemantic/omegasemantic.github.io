@@ -38,14 +38,6 @@ blockquote p:empty {
 .ObjectList {
     text-decoration:none;
 }
-.site-nav {
-    color:red;
-}
-
-.site-nav a {
-    text-decoration: none;
-    color: #404040;
-}
 
 .logo,.footnote {
     color:#404040;
@@ -104,5 +96,8 @@ h1,h2 {
     margin: 0 auto;                 /* center it */
     background: ;          /* prove the media query kicks in */
   }
+.nav {
+    padding-left:20px !important;
+    background: yellow;
 }
 
