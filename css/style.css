@@ -19,7 +19,7 @@ body {
 /* === Blockquote styling === */
 /* Blockquotes with clean vertical bar only on text lines */
 blockquote {
-  border-left: 2px dotted #707070;   /* vertical bar */
+  border-left: 2px dashed #707070;   /* vertical bar */
   margin: 1.5em 0;
   padding-left: 1em;
   color: #404040;
@@ -90,7 +90,7 @@ h1,h2 {
 }
 
 /* Tablet/desktop */
-@media (min-width: 768px) {
+@media (min-width: 568px) {
   main {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
