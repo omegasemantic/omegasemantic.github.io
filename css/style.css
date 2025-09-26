@@ -9,13 +9,6 @@ body {
   color:#404040;
 }
 
-.nav { 
-    padding:2rem;
-    padding-top:1rem !important;
-    background:;
-    max-width:100%;    
-} 
-
 /* === Blockquote styling === */
 /* Blockquotes with clean vertical bar only on text lines */
 blockquote {
@@ -53,20 +46,16 @@ h1,h2 {
 
 /* Nav Bar styling */
 .nav {
-    padding-top:60px;
+    padding-top:1rem !important;
     padding-bottom:20px;
     padding-left:2px !important;
-    background:red;
+    background:;
+    max-width:100%;    
 }
 
-.nav a {
-    text-decoration: none;
-    color: #404040;
-}
-
-.nav  a:hover; {
-    color:red ! important;
-    font-weight:bold;
+.site-nav a {
+    text-decoration:none;
+    color:#404040;
 }
 
 /* Object list styling */
@@ -98,6 +87,6 @@ h1,h2 {
   }
 .nav {
     padding-left:20px !important;
-    background: yellow;
+    background:;
 }
 
