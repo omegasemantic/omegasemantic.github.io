@@ -21,7 +21,7 @@ blockquote {
   border-left: 2px dashed #707070;   /* vertical bar */
   margin: 1.5em 0;
   padding-left: 1em;
-  color: #404040;
+  color: #303030;
   font-style: italic;
   max-width: 400px;               /* cap width only on bigger screens */
 }
@@ -47,7 +47,7 @@ blockquote p:empty {
 
 h1 {
     font-size:1.1rem;
-    color:#404040;
+    color:#303030;
 }
 
 
@@ -61,13 +61,12 @@ h1 {
 }
 
 .page_nav a {
-    color:yellow;
     text-decoration:none;
-    color:red;
+    color:#303030;
 }
 .site-nav a, .nav  {
     text-decoration:none;
-    color:red;
+    color:#303030;
 }
 
 /* Object list styling */
@@ -82,7 +81,7 @@ h1 {
 }
 
 .ObjectList  a {
-  color: #404040;          /* match your body text color */
+  color: #303030;          /* match your body text color */
   text-decoration: none;   /* remove underline */
 }
 
