@@ -1,0 +1,9 @@
+<nav class="page_nav"> 
+  <!-- Loop over pages marked for navigation -->
+  {% for page in site.pages %}
+    {% if page.nav %}
+      <p><a href="{{ page.url | relative_url }}">: {{ page.title }}</a></p>
+    {% endif %}
+  {% endfor %}
+</nav>
+

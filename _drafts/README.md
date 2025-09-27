@@ -1,1 +1,0 @@
-# omegasemantic.github.io

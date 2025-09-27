@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Objects
+title: objects
+nav: true
 permalink: /objects/
 ---
 

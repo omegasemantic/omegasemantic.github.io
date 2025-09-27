@@ -31,6 +31,7 @@ blockquote {
   padding-left: 1em;
   color: #404040;
   font-style: italic;
+  max-width: 360px;               /* cap width only on bigger screens */
 }
 
 blockquote p {
@@ -65,7 +66,12 @@ h1 {
     max-width:100%;    
 }
 
-.site-nav a {
+.page_nav a {
+    color:yellow;
+    text-decoration:none;
+    color:#404040;
+}
+.site-nav a, .nav  {
     text-decoration:none;
     color:#404040;
 }

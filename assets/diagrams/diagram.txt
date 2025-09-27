@@ -1,6 +1,4 @@
-[ bird ] -> [ room ] ->[boom!]
-[ dog ] -> [ room ]
-[ cat ] -> [ room]
+[ bird ]  ->[boom!]
 
 
  

@@ -9,24 +9,14 @@
 </head>
 <body>
 
-  <div class="nav">
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}"><span class="logo">+|+</span></a> 
-    </nav>
-  </div>
+{% include site_nav.html %}
 
   <main>
     {{ content }}
   </main>
-<script type="module">
-  import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-
-  document.addEventListener("DOMContentLoaded", () => {
-    mermaid.initialize({ startOnLoad: true });
-    mermaid.run();
-  });
-</script>
-
+  <footer class="footer">
+  <span class="copyright"></span>
+  </footer>
 </body>
 </html>
 

@@ -3,12 +3,34 @@ layout: default
 title: Home
 ---
 
-  <nav class="site-nav">
-    <p><a href="{{ '/about/' | relative_url }}">: definitions</a> </p>
-    <a href="{{ '/objects/' | relative_url }}">: objects</a> 
-  </nav>
+<pre>
+if compare then
+    context is false
+</pre>
+
+{% include site_nav.html %}
+
 ```
-{% include boom.ascii %}
++------+     +-------+
+| bird | --> | boom! |
++------+     +-------+
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
