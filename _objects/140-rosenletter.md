@@ -9,7 +9,7 @@ layout: default
     
 Rosen, said Pasupe, this Letter from Authority: I would you offer a morsel of advice.     
         
-Describe the essence of your dilemma, said Rosen.        
+Define the essence of your dilemma, said Rosen.        
         
 Authority desires the status of my situation, said Pasupe.        
         
@@ -32,7 +32,3 @@ Is existence of Letter a condition for existence of Letter?
         
 These official documents are always so confusing, said Pasupe.        
     
-    
-    
-    
-1033-250512130933    
