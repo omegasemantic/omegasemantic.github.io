@@ -1,4 +1,14 @@
-/* Mobile first, clean width test */
+
+
+
+.site-nav {
+    background: ;
+    padding-bottom: 120px;
+}
+
+
+
+
 .copyright {
     font-size:0.8rem;
     color: #707070;
@@ -31,7 +41,7 @@ blockquote {
   padding-left: 1em;
   color: #404040;
   font-style: italic;
-  max-width: 360px;               /* cap width only on bigger screens */
+  max-width: 400px;               /* cap width only on bigger screens */
 }
 
 blockquote p {
