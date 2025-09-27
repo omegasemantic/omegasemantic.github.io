@@ -3,7 +3,7 @@
 
 .site-nav {
     background: ;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
     margin-left: 2rem;
     margin-top: 2rem;
 }
@@ -87,7 +87,7 @@ h1 {
 }
 .site-nav a, .nav  {
     text-decoration:none;
-    color:#404040;
+    color:red;
 }
 
 /* Object list styling */
