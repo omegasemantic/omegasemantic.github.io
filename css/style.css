@@ -1,4 +1,29 @@
 
+body {
+  background:;  
+  margin: 0;
+  padding: 1rem;                    /* safe spacing */
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 1.1rem;
+  color:#303030;
+}
+
+h1 {
+    font-size:1.1rem;
+    color:#303030;
+}
+
+.ObjectList {
+    text-decoration:none;
+}
+
+.logo {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:#303030;
+}
+
+/* Navigation styling */
 .site-nav {
     background: ;
     padding-bottom: 50px;
@@ -6,13 +31,29 @@
     margin-top: 1rem;
 }
 
-body {
-  background:;                 /* keep as a visual marker */
-  margin: 0;
-  padding: 1rem;                    /* safe spacing */
-  font-family: 'Roboto Mono', monospace, sans-serif;
-  font-size: 1.1rem;
-  color:#303030;
+.page_nav a {
+    text-decoration:none;
+    color:#303030;
+}
+.site-nav a  {
+    text-decoration:none;
+    color:#303030;
+}
+
+/* Object list styling */
+.ObjectsList {
+  list-style: none;        /* remove bullets */
+  padding: 0;              /* reset default padding */
+  margin: 0;               /* reset default margin */
+}
+
+.ObjectList li {
+  margin-bottom: 1.5rem;   /* spacing between items (like double-spaced text) */
+}
+
+.ObjectList  a {
+  color: #303030;          /* match your body text color */
+  text-decoration: none;   /* remove underline */
 }
 
 /* === Blockquote styling === */
@@ -34,68 +75,10 @@ blockquote p:empty {
   display: none; /* hide empty <p> so bar doesn't extend */
 }
 
-
-.ObjectList {
-    text-decoration:none;
-}
-
-.logo {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color:#404040;
-}
-
-h1 {
-    font-size:1.1rem;
-    color:#303030;
-}
-
-
-/* Nav Bar styling */
-.nav {
-    padding-top:1rem !important;
-    padding-bottom:20px;
-    padding-left:2px !important;
-    background:red;
-    max-width:100%;    
-}
-
-.page_nav a {
-    color:yellow;
-    text-decoration:none;
-    color:303030;
-}
-.site-nav a, .nav  {
-    text-decoration:none;
-    color:#303030;
-}
-
-/* Object list styling */
-.ObjectsList {
-  list-style: none;        /* remove bullets */
-  padding: 0;              /* reset default padding */
-  margin: 0;               /* reset default margin */
-}
-
-.ObjectList li {
-  margin-bottom: 1.5rem;   /* spacing between items (like double-spaced text) */
-}
-
-.ObjectList  a {
-  color: #303030;          /* match your body text color */
-  text-decoration: none;   /* remove underline */
-}
-
-.footer {
+.footer { /* make a white space bottom margin*/
     background: ;
     padding-top: 80px;
 }
-
-.main {
-    padding-bottom: 40px;
-}
-
-
 
 /* Tablet/desktop */
 @media (min-width: 568px) {
@@ -105,8 +88,4 @@ h1 {
     background: ;          /* prove the media query kicks in */
     padding-bottom:20px;
   }
-.nav {
-    padding-left:20px !important;
-    background:;
 }
-
