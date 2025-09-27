@@ -4,6 +4,8 @@
 .site-nav {
     background: ;
     padding-bottom: 80px;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 
@@ -58,6 +60,8 @@ blockquote p:empty {
 }
 
 .logo {
+    font-size: 1.3rem;
+    font-weight: bold;
     color:#404040;
 }
 
