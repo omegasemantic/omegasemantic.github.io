@@ -87,5 +87,10 @@ blockquote p:empty {
     margin: 0 auto;                 /* center it */
     background: ;          /* prove the media query kicks in */
     padding-bottom:20px;
-  }
+}
+  .site-nav {
+    padding-bottom: 0px;
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
 }
