@@ -90,6 +90,7 @@ blockquote p:empty {
   }
   .site-nav {
 background:;
-    margin-left: 0.5rem;
+    margin-left: 1.0rem;
+    margin-top: 1.0rem;
     margin-bottom: 3rem;
 }
