@@ -75,22 +75,23 @@ blockquote p:empty {
   display: none; /* hide empty <p> so bar doesn't extend */
 }
 
-.footer { /* make a white space bottom margin*/
-    background: ;
-    padding-top: 80px;
-}
 
 /* Tablet/desktop */
 @media (min-width: 568px) {
   main {
     max-width: 460px;               /* cap width only on bigger screens */
     margin: 0 auto;                 /* center it */
-    background: ;          /* prove the media query kicks in */
+    background: ;                   /* prove the media query kicks in */
     padding-bottom:20px;
   }
-  .site-nav {
+.site-nav {
 background:;
     margin-left: 1.0rem;
     margin-top: 1.0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5.0rem;
+}
+.footer { /* make a white space bottom margin*/
+    background: ;
+    padding-top: 80px;
+}
 }
