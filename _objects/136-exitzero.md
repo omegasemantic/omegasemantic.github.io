@@ -1,6 +1,7 @@
 ---
 title: "exit zero"
 layout: default
+pagetype: story
 ---
 
 # exit zero  

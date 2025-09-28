@@ -1,6 +1,7 @@
 ---
 title: "the journey of duck"
 layout: default
+pagetype: story
 ---
 
 # the journey of duck    

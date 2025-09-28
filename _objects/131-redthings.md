@@ -1,6 +1,7 @@
 ---
 title: "red things are"
 layout: default
+pagetype: story
 ---
 
 # red things are  

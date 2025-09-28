@@ -1,8 +1,9 @@
 ---
 layout: default
 title: objects
-nav: true
+nav: false 
 permalink: /objects/
+pagetype: landing
 ---
 
 <div class="ObjectList" >
@@ -13,5 +14,4 @@ permalink: /objects/
 
 
 
-<a href="/">Home</a>
 

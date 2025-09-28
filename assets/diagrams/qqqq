@@ -1,3 +1,0 @@
-export PUPPETEER_EXECUTABLE_PATH=/bin/chromium
-mmdc -i test.mmd -o test.svg
-

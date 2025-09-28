@@ -1,2 +1,0 @@
-echo "[ A ] -- car --> [ B ] -- dog --> [c]" | graph-easy
-

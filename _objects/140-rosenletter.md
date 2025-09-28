@@ -1,6 +1,7 @@
 ---
 title: "Rosen, Letter, and Pasupe"
 layout: default
+pagetype: story
 ---
 
 # Rosen, Letter, and Pasupe        

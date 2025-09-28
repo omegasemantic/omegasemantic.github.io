@@ -1,10 +1,10 @@
 ---
 title: "Rosen, Grep, and Pasupe"
 layout: default
+pagetype: story
 ---
 
 # Rosen, Grep, and Pasupe      
-<a href="/objects/">Objects</a>
       
 > As flashes of bright light flew across the sky, they wondered what the coming days would bring.      
       

@@ -1,6 +1,7 @@
 ---
 title: "the objective"
 layout: default
+pagetype: story
 ---
 
 # the objective  

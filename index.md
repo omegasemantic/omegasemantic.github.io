@@ -1,21 +1,17 @@
 ---
 layout: default
 title: Home
+pagetype: index
 ---
 
-<pre>
-if compare then
-    context is false
-</pre>
+
+# Style Guide
+
+Avoid: [editor] "Recast! Its just COS."
+
+
 
 {% include site_nav.html %}
-
-```
-+------+     +-------+
-| bird | --> | boom! |
-+------+     +-------+
-```
-<a href="/">Home</a>
 
 
 

@@ -1,6 +1,7 @@
 ---
 title: "frog|bird"
 layout: default
+pagetype: story
 ---
 
 # frog|bird          

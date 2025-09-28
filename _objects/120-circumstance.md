@@ -1,6 +1,7 @@
 ---
 title: "circumstance"
 layout: default
+pagetype: story
 ---
 
 # circumstance      

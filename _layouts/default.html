@@ -9,11 +9,21 @@
 </head>
 <body>
 
-      <div class="site-nav">
-          <a href="{{ '/' | relative_url }}"><span class="logo">+|+</span></a> 
-      </div>
+<div class="site-nav">
+  <a class="logo"
+     href="{% case page.pagetype %}
+             {% when 'story' %}{{ '/objects/' | relative_url }}
+             {% when 'landing' %}{{ '/' | relative_url }}
+             {% when 'index' %}{{ '/objects/' | relative_url }}
+             {% else %}{{ '/' | relative_url }}
+           {% endcase %}">
+    <span class="logo">+|+</span>
+  </a>
+</div>
 
-  <main>
+
+
+    <main>
     {{ content }}
   </main>
 
