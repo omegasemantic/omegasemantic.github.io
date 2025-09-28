@@ -10,3 +10,8 @@ permalink: /objects/
     <p><a href="{{ object.url | relative_url }}">: {{ object.title }}</a></p>
   {% endfor %}
 </div>
+
+
+
+<a href="/">Home</a>
+
