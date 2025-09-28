@@ -1,32 +1,17 @@
 ---
 layout: default
-title: Home
-pagetype: index
+title: objects
+nav: false 
+permalink: /
+pagetype: landing
+nav: true/false as needed
 ---
 
-
-# Style Guide
-
-Avoid: [editor] "Recast! Its just COS."
-
-
-
-{% include site_nav.html %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="ObjectList" >
+  {% for object in site.objects %}
+    <p><a href="{{ object.url | relative_url }}">: {{ object.title }}</a></p>
+  {% endfor %}
+</div>
 
 
 

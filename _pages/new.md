@@ -2,7 +2,7 @@
 layout: default
 title: new
 nav: true
-permalink: /about/
+permalink: /new/
 ---
 
 # I am new

@@ -11,20 +11,14 @@
 
 <div class="site-nav">
   <a class="logo"
-     href="{% if page.url == '/styleguide/' %}
-             {{ '/' | relative_url }}
-           {% elsif page.pagetype == 'story' %}
-             {{ '/' | relative_url }}
-           {% elsif page.pagetype == 'landing' %}
-             {{ '/styleguide/' | relative_url }}
-           {% else %}
-             {{ '/styleguide/' | relative_url }}
-           {% endif %}">
+     href="{% case page.pagetype %}
+             {% when 'story' %}{{ '/' | relative_url }}{% comment %} story → landing page {% endcomment %}
+             {% when 'landing' %}{{ '/styleguide/' | relative_url }}{% comment %} landing → old index {% endcomment %}
+             {% else %}{{ '/' | relative_url }}{% comment %} all other pages → landing {% endcomment %}
+           {% endcase %}">
     <span class="logo">+|+</span>
   </a>
 </div>
-
-
 
 <main>
   {{ content }}
