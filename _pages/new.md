@@ -1,11 +1,11 @@
 ---
 layout: default
-title: new
+title: online prose linter
 nav: true
 permalink: /new/
 ---
 
-# I am new
+# prose linter: faq
 
 
 Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

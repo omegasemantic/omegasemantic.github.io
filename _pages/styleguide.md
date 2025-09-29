@@ -12,7 +12,6 @@ nav: true
 
 \: avoid: [EDITOR] "Recast! It's just COS."
 
-\: further reading
 
 
 

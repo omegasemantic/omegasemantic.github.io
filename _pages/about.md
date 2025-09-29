@@ -5,7 +5,7 @@ nav: true
 permalink: /about/
 ---
 
-# i am about
+# about
 
 
 Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
