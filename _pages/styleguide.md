@@ -6,9 +6,13 @@ pagetype: styleuide
 nav: true
 ---
 
-# Style Guide
+# Welcome. Let's PIP!
 
-Avoid: [editor] "Recast! Its just COS."
+\:  what is pip and other faq
+
+\: avoid: [EDITOR] "Recast! It's just COS."
+
+\: further reading
 
 
 
