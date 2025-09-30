@@ -44,7 +44,7 @@ We are highly intelligent.
 The danger to us is from insects in the main.       
 They have very little brain power.      
       
-You offer a fine opinion.       
+You offer a fine opinion, said Pasupe.       
 However, they are extremely predatory and we are very small.      
 Where are all the nice creatures?      
 Butterflies?      
@@ -55,7 +55,7 @@ I suspect Grep would teach us a lesson, said Rosen.
 The lights in the sky.       
 What were they? said Pasupe.      
       
-Sparks from Grep's grindstone I should think.      
+Sparks from Grep's grindstone I should think, said Rosen.      
       
 They seemed so far away, said Pasupe.      
       

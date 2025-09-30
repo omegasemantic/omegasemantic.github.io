@@ -1,5 +1,5 @@
 
   <nav class="site-nav">
     <p><a href="{{ '/about/' | relative_url }}">: definitions</a> </p>
-    <a href="{{ '/objects/' | relative_url }}">: objects</a> 
+    <a href="{{ '/prose/' | relative_url }}">: prose</a> 
   </nav>

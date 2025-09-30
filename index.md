@@ -1,15 +1,15 @@
 ---
 layout: default
-title: objects
+title: prose
 nav: false 
 permalink: /
 pagetype: landing
 nav: true/false as needed
 ---
 
-<div class="ObjectList" >
-  {% for object in site.objects %}
-    <p><a href="{{ object.url | relative_url }}">: {{ object.title }}</a></p>
+<div class="proseList" >
+  {% for prose in site.prose %}
+    <p><a href="{{ prose.url | relative_url }}">: {{ prose.title }}</a></p>
   {% endfor %}
 </div>
 

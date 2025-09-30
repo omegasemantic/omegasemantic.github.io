@@ -4,10 +4,10 @@
 # Collections
 # --------------------------------------------------
 collections:
-  objects:                 # lives in _objects/
+  prose:                 # lives in _prose/
     sort_by: rank
     output: true
-    permalink: /objects/:name/
+    permalink: /prose/:name/
   sandbox:                 # lives in _sandbox/
     output: true
     permalink: /sandbox/:name/
