@@ -94,4 +94,22 @@ background:;
     background: ;
     padding-top: 80px;
 }
+
+
+/* Container for prose/story pages */
+.prose-container {
+  max-width: 460px;       /* narrow for reading comfort */
+  margin: 0 auto;         /* centers the content */
+  padding: 0 1rem;        /* small horizontal padding */
+  line-height: 1.6;       /* optional: improves readability */
 }
+
+/* Container for wide pages (landing, dashboards, etc.) */
+.wide-container {
+  max-width: 800px;      /* wide for more content */
+  margin: 0 auto;         /* centers the content */
+  padding: 0 1rem;        /* small horizontal padding */
+  line-height: 1.6;
+}
+
+

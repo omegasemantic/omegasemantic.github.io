@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Home
-permalink: /styleguide/
-pagetype: styleuide
+title: lobby
+permalink: /lobby/
 nav: true
+container:
 ---
 
-# Welcome. Let's PIP!
+# Welcome. Let's all PIP!
 
 \:  what is pip and other faq
 

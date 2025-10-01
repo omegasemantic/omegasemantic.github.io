@@ -44,7 +44,7 @@ We are highly intelligent.
 The danger to us is from insects in the main.       
 They have very little brain power.      
       
-You offer a fine opinion, said Pasupe.       
+You offer a fine opinion.       
 However, they are extremely predatory and we are very small.      
 Where are all the nice creatures?      
 Butterflies?      
