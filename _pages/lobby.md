@@ -3,7 +3,7 @@ layout: default
 title: lobby
 permalink: /lobby/
 nav: true
-container:
+container: wide-container
 ---
 
 # Welcome. Let's all PIP!
@@ -12,7 +12,7 @@ container:
 
 \: avoid: [EDITOR] "Recast! It's just COS."
 
-
+\: Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 
 {% include site_nav.html %}

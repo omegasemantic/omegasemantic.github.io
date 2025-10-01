@@ -2,6 +2,7 @@
 title: "Rosen, Letter, and Pasupe"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # Rosen, Letter, and Pasupe        

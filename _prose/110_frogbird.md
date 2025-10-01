@@ -2,6 +2,7 @@
 title: "frog|bird"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # frog|bird          

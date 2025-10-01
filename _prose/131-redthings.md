@@ -2,6 +2,7 @@
 title: "red things are"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # red things are  

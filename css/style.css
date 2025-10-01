@@ -64,7 +64,7 @@ blockquote {
   padding-left: 1em;
   color: #303030;
   font-style: italic;
-  max-width: 400px;               /* cap width only on bigger screens */
+  max-width: 360px;               /* cap width only on bigger screens */
 }
 
 blockquote p {
@@ -106,7 +106,7 @@ background:;
 
 /* Container for wide pages (landing, dashboards, etc.) */
 .wide-container {
-  max-width: 800px;      /* wide for more content */
+  max-width: 680px;      /* wide for more content */
   margin: 0 auto;         /* centers the content */
   padding: 0 1rem;        /* small horizontal padding */
   line-height: 1.6;

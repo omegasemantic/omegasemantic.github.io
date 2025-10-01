@@ -2,6 +2,7 @@
 title: "the journey of duck"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # the journey of duck    

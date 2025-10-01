@@ -2,6 +2,7 @@
 title: "exit zero"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # exit zero  

@@ -2,6 +2,7 @@
 title: "Bonvivant and Majesty"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # Bonvivant and Majesty  

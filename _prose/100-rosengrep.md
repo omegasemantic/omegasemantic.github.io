@@ -2,6 +2,7 @@
 title: "Rosen, Grep, and Pasupe"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # Rosen, Grep, and Pasupe      

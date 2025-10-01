@@ -2,6 +2,7 @@
 title: "the objective"
 layout: default
 pagetype: story
+container: prose-container
 ---
 
 # the objective  
