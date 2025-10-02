@@ -3,7 +3,7 @@ body {
   background:;  
   margin: 0;
   padding: 1rem;                    /* safe spacing */
-  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-family: Courier ,'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
   color:#303030;
 }
@@ -74,6 +74,26 @@ blockquote p {
 blockquote p:empty {
   display: none; /* hide empty <p> so bar doesn't extend */
 }
+
+/* Lists */
+ul {
+  list-style: none;       /* Remove default bullets */
+  padding-left: 1.2em;    /* Slight indent for the whole block */
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;   /* Optional spacing */
+  position: relative;
+  padding-left: 0.8em;    /* Space for the dash */
+}
+
+ul li::before {
+  content: "- ";          /* Dash + space */
+  position: absolute;
+  left: 0;                /* Dash sits inside the 1.2em padding */
+}
+
 
 
 /* Tablet/desktop */

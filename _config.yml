@@ -5,7 +5,6 @@
 # --------------------------------------------------
 collections:
   prose:                 # lives in _prose/
-    sort_by: rank
     output: true
     permalink: /prose/:name/
   sandbox:                 # lives in _sandbox/
