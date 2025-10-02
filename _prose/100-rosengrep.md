@@ -26,7 +26,7 @@ I see an enormous bubble.
       
 A drop of water, said Rosen.      
         
-Perhaps it is so.         
+Perhaps it is so, said Pasupe.         
 Perhaps it is water.         
 But will we obtain a drink?        
 The exterior is pliant yet I am unable to effect a breach.        
