@@ -3,7 +3,7 @@ body {
   background:;  
   margin: 0;
   padding: 1rem;                    /* safe spacing */
-  font-family: 'Courier Prime','Roboto Mono', monospace, sans-serif;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.3rem;
   color:#303030;
 }
@@ -126,7 +126,7 @@ background:;
 
 /* Container for wide pages (landing, dashboards, etc.) */
 .wide-container {
-  max-width: 680px;      /* wide for more content */
+  max-width: 640px;      /* wide for more content */
   margin: 0 auto;         /* centers the content */
   padding: 0 1rem;        /* small horizontal padding */
   line-height: 1.6;
