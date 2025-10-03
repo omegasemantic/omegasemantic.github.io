@@ -8,6 +8,8 @@ container: wide-container
 
 # Welcome. Let's all PIP!
 
+Historians will study the Cybertruck. It is such a uniquely bad product that it is basically the poster boy for the final death throes of capitalism. 
+
 \:  what is pip and other faq
 
 \: avoid: [EDITOR] "Recast! It's just COS."
