@@ -26,7 +26,7 @@ I see an enormous bubble.
       
 A drop of water, said Rosen.      
         
-Perhaps it is so, said Pasupe.         
+Perhaps it is so.         
 Perhaps it is water.         
 But will we obtain a drink?        
 The exterior is pliant yet I am unable to effect a breach.        
@@ -45,7 +45,7 @@ We are highly intelligent.
 The danger to us is from insects in the main.       
 They have very little brain power.      
       
-You offer a fine opinion.       
+You offer a fine opinion, said Pasupe.       
 However, they are extremely predatory and we are very small.      
 Where are all the nice creatures?      
 Butterflies?      
