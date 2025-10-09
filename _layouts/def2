@@ -13,18 +13,18 @@
 
 <div class="site-nav">
   <a class="logo"
-     href="{% if page.url == '/lobby/' or page.pagetype == 'story' %}
-              {{ '/' | relative_url }}
-            {% else %}
-              {{ '/lobby/' | relative_url }}
-            {% endif %}">
+     href="{% if page.url == '/lobby/' %}
+             {{ '/' | relative_url }}
+           {% elsif page.pagetype == 'story' %}
+             {{ '/' | relative_url }}
+           {% elsif page.pagetype == 'landing' %}
+             {{ '/lobby/' | relative_url }}
+           {% else %}
+             {{ '/lobby/' | relative_url }}
+           {% endif %}">
     <span class="logo">+|+</span>
   </a>
 </div>
-
-
-
-
 
 <!-- Main content with dynamic container class -->
 <main class="{{ page.container | default: 'wide-container' }}">

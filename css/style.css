@@ -25,8 +25,8 @@ h1 {
 
 /* Navigation styling */
 .site-nav {
-    background: ;
-    padding-bottom: 0px;
+    background:  ;
+    padding-bottom: 12px;
     margin-left: 0rem;
     margin-top: 0rem;
 }
@@ -105,7 +105,7 @@ ul li::before {
     padding-bottom:20px;
   }
 .site-nav {
-background:;
+background: ;
     margin-left: 1.0rem;
     margin-top: 1.0rem;
     margin-bottom: 5.0rem;

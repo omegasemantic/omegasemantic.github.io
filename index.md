@@ -5,7 +5,6 @@ nav: false
 permalink: /
 pagetype: landing
 container: prose-container
-nav: true/false as needed
 ---
 
 <div class="proseList" >
