@@ -8,6 +8,12 @@ body {
   color:#303030;
 }
 
+.footer { /* make a white space bottom margin*/
+    background: ;
+    padding-top: 80px;
+}
+
+
 h1 {
     font-size:1.1rem;
     color:#303030;
@@ -111,11 +117,6 @@ background: ;
     margin-top: 1.0rem;
     margin-bottom: 5.0rem;
 }
-.footer { /* make a white space bottom margin*/
-    background: ;
-    padding-top: 80px;
-}
-
 
 /* Container for prose/story pages */
 .prose-container {
