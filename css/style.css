@@ -11,7 +11,10 @@ body {
 .footer { /* make a white space bottom margin*/
     background: ;
     padding-top: 120px;
+    margin: auto;
+    text-align: center;
 }
+
 
 
 h1 {
