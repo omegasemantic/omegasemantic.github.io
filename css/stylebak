@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
   color: #303030;
+  background: blue;
 }
 
 h1 {
@@ -27,6 +28,7 @@ h1 {
 .site-nav {
   padding: 12px 0;
   margin: 0;
+  background: red ;
 }
 
 .site-nav a {
@@ -57,7 +59,7 @@ blockquote {
   padding-left: 1em;
   color: #303030;
   font-style: italic;
-  max-width: 360px;
+  max-width: 360px; /* optional cap width */
 }
 
 blockquote p {
@@ -66,6 +68,25 @@ blockquote p {
 
 blockquote p:empty {
   display: none;
+}
+
+/* === Lists === */
+ul {
+  list-style: none;
+  padding-left: 1.2em;
+  margin: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
+  position: relative;
+  padding-left: 0.8em;
+}
+
+ul li::before {
+  content: "- ";
+  position: absolute;
+  left: 0;
 }
 
 /* === Main content (mobile-first) === */
@@ -83,13 +104,13 @@ main.wide {
 
 /* Prose layout */
 main.prose {
-  max-width: 460px;
+  max-width: 460px; /* narrow for prose pages */
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
   main {
-    padding: 0 1rem 20px 1rem;
+    padding-bottom: 20px;
   }
 
   .site-nav {

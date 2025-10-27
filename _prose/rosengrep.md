@@ -33,7 +33,7 @@ The exterior is pliant yet I am unable to effect a breach.
 I still have my flute, said Rosen.        
 I will stop the holes and insert the end of my flute inside.        
   
-*  
+\*  
       
 That's better, said Pasupe.        
 I was very thirsty.        
@@ -78,4 +78,3 @@ Change is hard, said Pasupe.
   
   
     
-E10  

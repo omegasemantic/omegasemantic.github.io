@@ -20,13 +20,13 @@ I decline, said B.
       
 Stand or I kick you, said A.      
       
-*  
+\*  
       
 Never mind.      
 Stay down.      
 We will make do.      
       
-*  
+\*  
       
 We present the diorama, said A.      
 She finds her lover's corpse.      
@@ -40,7 +40,7 @@ I shall take the centre.
 There I shall strike my pose.      
 Ply a circuit around me, reflect, and in due course, propose your opinion.      
       
-*  
+\*  
       
 I thank you, said A.      
 However, I am much concerned on your behalf.      
@@ -49,3 +49,4 @@ How will you attract a following?
 I must venture to surmount my misfortunes, said B.      
     
     
+R30    
