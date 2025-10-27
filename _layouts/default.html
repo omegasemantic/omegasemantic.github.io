@@ -5,15 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 </head>
 <body>
 
+<!-- Site Navigation -->
 <div class="site-nav">
   <a class="logo"
-     href="{% if page.url == '/lobby/' or page.pagetype == 'story' %}
+     href="{% if page.url == '/lobby/' %}
               {{ '/' | relative_url }}
             {% else %}
               {{ '/lobby/' | relative_url }}
@@ -22,21 +22,19 @@
   </a>
 </div>
 
-
-
-
-
-<!-- Main content with dynamic container class -->
-<main class="{{ page.container | default: 'wide-container' }}">
+<!-- Main Content -->
+<main class="wide">
   {{ content }}
 </main>
 
-<script data-goatcounter="https://omega.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
-
+<!-- Footer -->
 <footer class="footer">
   <span class="endnote"></span>
 </footer>
+
+<!-- Analytics / Scripts -->
+<script data-goatcounter="https://omega.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 </body>
 </html>
 

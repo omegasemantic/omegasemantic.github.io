@@ -1,8 +1,7 @@
 ---
 title: "Rosen, Grep, and Pasupe"
-layout: default
-pagetype: story
-container: prose-container
+rank: 0
+layout: prose
 ---
 
 # Rosen, Grep, and Pasupe      
@@ -34,7 +33,7 @@ The exterior is pliant yet I am unable to effect a breach.
 I still have my flute, said Rosen.        
 I will stop the holes and insert the end of my flute inside.        
   
-\*  
+*  
       
 That's better, said Pasupe.        
 I was very thirsty.        
@@ -71,6 +70,12 @@ This is our new reality, said Rosen.
 We have to get used to it.      
       
 Change is hard, said Pasupe.      
+   
+  
+  
+  
+  
+  
+  
     
-    
-    
+E10  

@@ -1,8 +1,7 @@
 ---
 title: "the journey of duck"
-layout: default
-pagetype: story
-container: prose-container
+rank: 40
+layout: prose
 ---
 
 # the journey of duck    
@@ -23,7 +22,7 @@ Solitary Duck, said Rock.
   
 Climb me and take a drink of rain from the puddle on my back.    
   
-\*  
+*  
   
 Thank you, Rock, said Duck.    
   
@@ -33,7 +32,7 @@ Mollymawk zoomed down to shoo Duck off Rock.
   
 Off Rock! Shoo! said Mollymawk.    
   
-\*  
+*  
   
 Back in the ocean, Duck said:    
   
@@ -49,7 +48,7 @@ Now I see back of Rock.
   
 But will I never see all my pretty chicks again?    
   
-\*  
+*  
   
 I have much to ponder, said Duck, and only my tiny duck brain to ponder with.    
   
@@ -63,7 +62,7 @@ However, I occupy one discrete moment, and then the next.
   
 And within each moment, I have not the slightest notion or sensation of time.    
   
-\*  
+*  
   
 At least I have Rock, said Duck.    
   
@@ -72,7 +71,6 @@ I should obtain a drink now and then.
 And I can to some extent observe if I am coming or if I am going.    
   
 I wonder how long I exist? said Duck.    
-  
   
   
   

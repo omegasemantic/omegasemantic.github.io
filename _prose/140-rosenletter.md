@@ -1,8 +1,7 @@
 ---
 title: "Rosen, Letter, and Pasupe"
-layout: default
-pagetype: story
-container: prose-container
+rank: 70
+layout: prose
 ---
 
 # Rosen, Letter, and Pasupe        
@@ -33,4 +32,6 @@ I see what you mean, said Rosen.
 Is existence of Letter a condition for existence of Letter?        
         
 These official documents are always so confusing, said Pasupe.        
-    
+   
+  
+  

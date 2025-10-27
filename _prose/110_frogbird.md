@@ -1,8 +1,7 @@
 ---
 title: "frog|bird"
-layout: default
-pagetype: story
-container: prose-container
+rank: 20
+layout: prose
 ---
 
 # frog|bird          
@@ -15,4 +14,6 @@ frog could pose chin high held forearms set
           
 bird could not both face frog and maintain a pose          
           
-          
+  
+  
+  

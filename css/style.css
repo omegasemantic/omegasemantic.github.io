@@ -1,80 +1,64 @@
-
+/* === Global styles === */
 body {
-  background:;  
   margin: 0;
-  padding: 1rem;                    /* safe spacing */
-  font-family:  'Roboto Mono', monospace, sans-serif;
+  padding: 1rem;
+  font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
-  color:#303030;
+  color: #303030;
 }
-
-.footer { /* make a white space bottom margin*/
-    background: ;
-    padding-top: 80px;
-    margin: auto;
-    text-align: center;
-}
-
-
 
 h1 {
-    font-size:1.1rem;
-    color:#303030;
-}
-
-.proseList {
-    text-decoration:none;
+  font-size: 1.1rem;
+  color: #303030;
 }
 
 .logo {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color:#303030;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #303030;
 }
 
-/* Navigation styling */
+.footer {
+  padding-top: 80px;
+  text-align: center;
+}
+
+/* === Navigation styling === */
 .site-nav {
-    background:  ;
-    padding-bottom: 12px;
-    padding-top: 12px;
-    margin-left: 0rem;
-    margin-top: 0rem;
+  padding: 12px 0;
+  margin: 0;
+  background: ;
 }
 
-.page_nav a {
-    text-decoration:none;
-    color:#303030;
-}
-.site-nav a  {
-    text-decoration:none;
-    color:#303030;
+.site-nav a {
+  text-decoration: none;
+  color: #303030;
 }
 
-/* prose list styling */
+/* === Prose/List Styling === */
 .proseList {
-  list-style: none;        /* remove bullets */
-  padding: 0;              /* reset default padding */
-  margin: 0;               /* reset default margin */
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .proseList li {
-  margin-bottom: 1.5rem;   /* spacing between items (like double-spaced text) */
+  margin-bottom: 1.5rem;
 }
 
-.proseList  a {
-  color: #303030;          /* match your body text color */
-  text-decoration: none;   /* remove underline */
+.proseList a {
+  color: #303030;
+  text-decoration: none;
 }
 
 /* === Blockquote styling === */
-/* Blockquotes with clean vertical bar only on text lines */
 blockquote {
-  border-left: 2px dashed #707070;   /* vertical bar */
+  border-left: 2px dashed #707070;
   margin: 1.5em 0;
   padding-left: 1em;
   color: #303030;
   font-style: italic;
-  max-width: 360px;               /* cap width only on bigger screens */
+  max-width: 360px; /* optional cap width */
 }
 
 blockquote p {
@@ -82,59 +66,54 @@ blockquote p {
 }
 
 blockquote p:empty {
-  display: none; /* hide empty <p> so bar doesn't extend */
+  display: none;
 }
 
-/* Lists */
+/* === Lists === */
 ul {
-  list-style: none;       /* Remove default bullets */
-  padding-left: 1.2em;    /* Slight indent for the whole block */
+  list-style: none;
+  padding-left: 1.2em;
   margin: 0;
 }
 
 ul li {
-  margin-bottom: 0.5em;   /* Optional spacing */
+  margin-bottom: 0.5em;
   position: relative;
-  padding-left: 0.8em;    /* Space for the dash */
+  padding-left: 0.8em;
 }
 
 ul li::before {
-  content: "- ";          /* Dash + space */
+  content: "- ";
   position: absolute;
-  left: 0;                /* Dash sits inside the 1.2em padding */
+  left: 0;
 }
 
-
-
-/* Tablet/desktop */
-@media (min-width: 568px) {
-  main {
-    max-width: 460px;               /* cap width only on bigger screens */
-    margin: 0 auto;                 /* center it */
-    background: ;                   /* prove the media query kicks in */
-    padding-bottom:20px;
-  }
-.site-nav {
-background: ;
-    margin-left: 1.0rem;
-    margin-top: 1.0rem;
-    margin-bottom: 5.0rem;
-}
-
-/* Container for prose/story pages */
-.prose-container {
-  max-width: 460px;       /* narrow for reading comfort */
-  margin: 0 auto;         /* centers the content */
-  padding: 0 1rem;        /* small horizontal padding */
-  line-height: 1.6;       /* optional: improves readability */
-}
-
-/* Container for wide pages (landing, dashboards, etc.) */
-.wide-container {
-  max-width: 640px;      /* wide for more content */
-  margin: 0 auto;         /* centers the content */
-  padding: 0 1rem;        /* small horizontal padding */
+/* === Main content (mobile-first) === */
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
   line-height: 1.6;
 }
 
+/* Wide layout (default) */
+main.wide {
+  max-width: 640px;
+}
+
+/* Prose layout */
+main.prose {
+  max-width: 460px; /* narrow for prose pages */
+}
+
+/* === Media query adjustments === */
+@media (min-width: 568px) {
+  main {
+    padding-bottom: 20px;
+  }
+
+  .site-nav {
+    margin: 1rem 0 5rem 1rem;
+  }
+}
 
