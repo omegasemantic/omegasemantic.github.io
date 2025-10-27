@@ -12,10 +12,21 @@
 
 <!-- Site Navigation -->
 <div class="site-nav">
-  <a class="logo"
-     href="{{ '/' | relative_url }}">
-    <span class="logo">+|+</span>
-  </a>
+
+
+<a class="logo"
+   href="{% if page.url == '/' %}
+            {{ '/lobby/' | relative_url }}
+         {% else %}
+            {{ '/' | relative_url }}
+         {% endif %}">
+  <span class="logo">+|+</span>
+</a>
+
+
+
+
+
 </div>
 
 <!-- Main content (prose width 460px) -->

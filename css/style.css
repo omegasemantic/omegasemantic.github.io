@@ -34,6 +34,11 @@ h1 {
   color: #303030;
 }
 
+.page_nav a {
+  text-decoration: none;
+  color: #303030;
+}
+
 /* === Prose/List Styling === */
 .proseList {
   list-style: none;

@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: prose
 title: prose
 nav: false 
 permalink: /
 pagetype: landing
-container: prose-container
 ---
 
 
