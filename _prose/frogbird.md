@@ -17,4 +17,3 @@ bird could not both face frog and maintain a pose
   
   
   
-R20   

@@ -13,7 +13,6 @@ if you are reading this
 then i am already dead  
   
   
-R50  
   
   
   

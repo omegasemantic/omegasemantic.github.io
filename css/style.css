@@ -72,8 +72,9 @@ blockquote p:empty {
 main {
   width: 100%;
   margin: 0 auto;
-  padding: 0 1rem;
+  padding: 0 0rem;
   line-height: 1.6;
+  background-color: red;
 }
 
 /* Wide layout (default) */
@@ -90,6 +91,7 @@ main.prose {
 @media (min-width: 568px) {
   main {
     padding: 0 1rem 20px 1rem;
+    background-color: blue;
   }
 
   .site-nav {

@@ -49,4 +49,3 @@ How will you attract a following?
 I must venture to surmount my misfortunes, said B.      
     
     
-R30    

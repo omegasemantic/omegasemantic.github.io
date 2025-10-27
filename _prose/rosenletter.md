@@ -35,4 +35,3 @@ These official documents are always so confusing, said Pasupe.
    
   
   
-R70  

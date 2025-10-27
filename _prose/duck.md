@@ -75,4 +75,3 @@ I wonder how long I exist? said Duck.
   
   
   
-R40  
