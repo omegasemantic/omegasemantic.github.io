@@ -34,7 +34,7 @@ main p {
 /* === Media query adjustments === */
 @media (min-width: 568px) {
   main {
-    padding: 0 1rem 20px 1rem;
+    padding:   0 0; 
     background-color: red;
     max-width: 440px;
   }

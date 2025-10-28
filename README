@@ -1,0 +1,59 @@
+=============================================
+WHEN TO RESTART JEKYLL
+=============================================
+
+Jekyll automatically rebuilds your site when content or layouts change,
+but some changes require a full restart of the Jekyll server.
+
+---------------------------------------------
+RESTART REQUIRED when you:
+---------------------------------------------
+1. Modify _config.yml
+   - Any change to configuration (e.g., collections, plugins, permalinks)
+   - Reason: Jekyll only reads config on startup.
+
+2. Add or remove plugins (in _config.yml or Gemfile)
+   - Reason: Plugins are loaded only once at boot.
+
+3. Add or delete collections
+   - e.g., adding a new folder like _comics or _episodes.
+   - Reason: Collections are registered from _config.yml at startup.
+
+4. Change directory structure
+   - Moving folders, renaming directories, or changing where assets live.
+   - Reason: Jekyll’s file watcher can lose track of paths.
+
+5. Update site dependencies
+   - e.g., after `bundle update` or installing new gems.
+
+6. Switch branches (Git)
+   - Reason: File watcher may not detect new layouts/includes on branch change.
+
+7. Enable/disable incremental builds
+   - If you toggle `--incremental` or modify related build flags.
+
+---------------------------------------------
+NO RESTART NEEDED when you:
+---------------------------------------------
+1. Edit Markdown files (.md)
+   - Jekyll auto-rebuilds content pages.
+
+2. Edit HTML layouts or includes
+   - e.g., _layouts/, _includes/ — will hot-reload.
+
+3. Edit CSS or JS (in assets/)
+   - Changes picked up immediately unless bundled externally.
+
+4. Add or change images
+   - Adding new images in assets/ is detected and rebuilt automatically.
+
+---------------------------------------------
+TIPS
+---------------------------------------------
+- To restart quickly: press CTRL+C, then run `jekyll serve` again.
+- If the site looks stale or partial updates stop showing, restart Jekyll.
+- Incremental mode (`jekyll serve --incremental`) can occasionally miss changes —
+  restart to force a full rebuild if something doesn’t update.
+
+=============================================
+
