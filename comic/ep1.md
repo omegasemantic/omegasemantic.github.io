@@ -1,8 +1,8 @@
 ---
-title: "Episode 1"
+title: "EP1"
 layout: comic
 pagetype: comic-episode
-permalink: /comic/episode-01/
+permalink: /comic/ep1/
 ---
 
 
