@@ -2,6 +2,7 @@
 title: "exit zero"
 rank: 50
 layout: prose
+pagetype: story
 ---
 
 # exit zero  

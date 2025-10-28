@@ -12,7 +12,6 @@ collections:
     permalink: /sandbox/:name/
   pages:                   # lives in _pages/
     output: true
-    permalink: /:name/
 
 # Don't cache
 incremental: false

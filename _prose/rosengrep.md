@@ -2,6 +2,7 @@
 title: "Rosen, Grep, and Pasupe"
 rank: 10
 layout: prose
+pagetype: story
 ---
 
 # Rosen, Grep, and Pasupe      

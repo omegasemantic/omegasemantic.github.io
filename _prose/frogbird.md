@@ -2,6 +2,7 @@
 title: "frog|bird"
 rank: 20
 layout: prose
+pagetype: story
 ---
 
 # frog|bird          

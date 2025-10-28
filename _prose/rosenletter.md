@@ -2,6 +2,7 @@
 title: "Rosen, Letter, and Pasupe"
 rank: 70
 layout: prose
+pagetype: story
 ---
 
 # Rosen, Letter, and Pasupe        

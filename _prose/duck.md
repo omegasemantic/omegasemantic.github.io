@@ -2,6 +2,7 @@
 title: "the journey of duck"
 rank: 40
 layout: prose
+pagetype: story
 ---
 
 # the journey of duck    
