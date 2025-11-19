@@ -15,6 +15,8 @@ From now on, please address me: Exhibit A.
       
 I shall be Exhibit B, said the other, and assumed a shape upon the floor.      
       
+\* 
+
 Come to me, said A.      
       
 I decline, said B.      
