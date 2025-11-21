@@ -6,4 +6,5 @@ nav: true
 container: wide-container
 ---
 
-# Welcome. Let's all PIP!
+
+welcome to the lobby

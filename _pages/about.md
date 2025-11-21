@@ -18,8 +18,19 @@ Lobortis scelerisque fermentum dui faucibus in, Dignissim cras tincidunt loborti
 
 Porttitor eget dolor morbi non arcu risus.  
 Duis convallis convallis tellus id interdum velit laoreet.  
+ndex.md (lobby/home page)
+
+- [Epic Page]({% link _pages/epic.md %})
 
 Lectus urna duis convallis convallis tellus Augue interdum velit euismod in pellentesque massa placerat.
 
 Nibh mauris cursus mattis molestie.
+
+bby
+
+Check out the [Epic page](/pages/epic.html)!
+
+bby
+
+Check out the [Epic page](/pages/epic.html)!
 
