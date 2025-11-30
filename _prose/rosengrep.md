@@ -31,7 +31,7 @@ Perhaps it is water.
 But will we obtain a drink?        
 The exterior is pliant yet I am unable to effect a breach.        
       
-I still have my flute, said Rosen.        
+I still have my f nnlute, said Rosen.        
 I will stop the holes and insert the end of my flute inside.        
   
 \*  

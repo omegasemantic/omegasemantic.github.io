@@ -34,3 +34,5 @@ bby
 
 Check out the [Epic page](/pages/epic.html)!
 
+ to Epic](/epic/)
+

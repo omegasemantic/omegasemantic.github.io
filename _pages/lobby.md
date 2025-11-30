@@ -8,3 +8,8 @@ container: wide-container
 
 
 welcome to the lobby
+
+
+[vim]({{ "/vim/" | relative_url }})
+
+

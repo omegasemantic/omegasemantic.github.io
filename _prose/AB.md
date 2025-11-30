@@ -15,8 +15,8 @@ From now on, please address me: Exhibit A.
       
 I shall be Exhibit B, said the other, and assumed a shape upon the floor.      
       
-\* 
-
+\*  
+  
 Come to me, said A.      
       
 I decline, said B.      
@@ -30,7 +30,7 @@ Stay down.
 We will make do.      
       
 \*  
-      
+  
 We present the diorama, said A.      
 She finds her lover's corpse.      
 She takes him in her arms.      
