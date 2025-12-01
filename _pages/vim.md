@@ -1,6 +1,6 @@
 ---  
 layout: preview  
-permalink: /vim/
+permalink: /vim/  
 ---  
   
 # . . .  
@@ -20,6 +20,7 @@ permalink: /vim/
 # THE ADVENTURE OF VIM  
   
 # *  
+### *  
   
   
   
@@ -62,7 +63,7 @@ THE CHORUS: a choir
 # PROLOGUE  
   
   
-## EXT. A MAGICAL FOREST SCENE - DAWN.  
+## EXT. MAGICAL FOREST SCENE - DAWN.  
   
 ### Two fairy children are captured and enslaved  
   
@@ -144,6 +145,8 @@ My CURSE, you rapscallion has a sting in its tail!
   
 Should you not repent ere the full moon has bloomed  
 Someone you love shall suffer for you!  
+  
+# ***  
   
 CHERMIONE said: You impotent ghost  
 I could not care less for this other you boast  
@@ -262,7 +265,7 @@ If you just go away, and I must, I will answer the call
   
 ## INT. OR EXT. NIGHT. FESTIVE  
   
-### The Royale Wedding ends badly  
+### The Wedding Royale ends badly  
   
 As VIM waited tables, CHERMIONE was able  
 To view and indenture a mate  
@@ -274,7 +277,7 @@ Unwanted advances! They will not be answered!
 But is this a stirring within?  
   
 Said VIM to themselves, then: oh, what the hell  
-The wedding is set to begin  
+The preview is set to begin  
   
 # ***  
   
@@ -517,14 +520,8 @@ But fly and tell DIAPHANOUS
   
 # ***  
   
-  
 I am undone said VIM  
-  
 The CURSE is come upon me  
-  
-It is I who must now die  
-  
-The FATES demand I make an impossible choice  
   
 # ***  
   
@@ -595,7 +592,9 @@ And that will be the all
   
 # ***  
   
-## EXT. DAWN. FOREST GLEN WHERE LIE THE BODIES OF VIM AND DIAPHANOUS. CHERMIONE IS NOW DRESSED IN RAGS. THE QUEEN OF THE NIGHT AND WINKIPOP NOW WEAR CROWNS AND DRESSED IN ALL THE FINERY OF FAIRY ROYALTY.  
+## EXT. DAWN. FOREST GLEN  
+  
+> The sun rises to revaeal the lifeless bodies of VIM and DIAPHANOUS. CHERMIONE, now dresed in rags, staggers into view. We  see THE QUEEN OF THE NIGHT AND WINKIPOP now magnificent, dressed in the all the pomp and finery of FAIRY ROYALTY. With the end of CHERMIONE's reign, their slavery to the PREDECESSORS is over!  
   
 ### A miracle happens and all is revealed  
   

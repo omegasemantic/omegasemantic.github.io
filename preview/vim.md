@@ -1,5 +1,6 @@
 ---  
 layout: preview  
+permalink: /vim/
 ---  
   
 # . . .  
@@ -594,7 +595,9 @@ And that will be the all
   
 # ***  
   
-## EXT. DAWN. FOREST GLEN WHERE LIE THE BODIES OF VIM AND DIAPHANOUS. CHERMIONE IS NOW DRESSED IN RAGS. THE QUEEN OF THE NIGHT AND WINKIPOP NOW WEAR CROWNS AND DRESSED IN ALL THE FINERY OF FAIRY ROYALTY.  
+## EXT. DAWN. FOREST GLEN 
+
+> The sun rises to revaeal the lifeless bodies of VIM and DIAPHANOUS. CHERMIONE, now dresed in rags, staggers into view. We  see THE QUEEN OF THE NIGHT AND WINKIPOP now dressed with crowns and all the finery of fairy royalty.  
   
 ### A miracle happens and all is revealed  
   
