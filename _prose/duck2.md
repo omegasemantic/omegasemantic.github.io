@@ -9,7 +9,7 @@ pagetype: story
   
 > A great wind blew Duck far from land and dropped Duck upon the vastness of the ocean.    
   
-Good Feathers! said Duck.  
+Good Feathers! said Duck.    
   
 What a calamity!     
   
@@ -34,7 +34,6 @@ Mollymawk zoomed down to shoo Duck off Rock.
 Off Rock! Shoo! said Mollymawk.    
   
 \*  
-  
   
 Back in the ocean, Duck said:    
   
