@@ -72,11 +72,10 @@ blockquote {
 /* === Main content (mobile-first) === */
 main {
   width: 100%;
-  margin: 4 auto;
   line-height: 1.6;
-  background-color:yellow;
-  padding-left: 19px
-  padding-right: 9rem;
+  background-color:;
+      /* Increase left/right padding for small screens */
+  padding: 0 2rem 20px 9rem;
 }
 
 
