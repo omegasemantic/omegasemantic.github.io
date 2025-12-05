@@ -25,8 +25,8 @@ pre, code {
 }
 
 h1 { 
-    font-size: 22px;
     text-align: center;
+    font-size: 22px;
     margin-bottom: 40px;
     margin-top: 0;
 }
@@ -38,6 +38,7 @@ h2 {
     font-weight: normal;
     max-width: 400px;
     margin: auto 0 20px 0;
+    color: red;
 }
 
 h3 {
@@ -56,13 +57,6 @@ blockquote {
     padding-left: 15px;
 }
 
-/* === Main content (mobile-first) === */
-main {
-    width: 100%;
-    line-height: 1.6;
-    padding: 1rem 1rem 20px 1rem;  /* inset text on small screens */
-    background-color: orange;       /* small screen test background */
-}
 
 /*
 
@@ -89,7 +83,7 @@ main.prose {
 @media (min-width: 568px) {
   main {
     padding: 0 1rem 20px 1rem;
-    background-color: red;       /* small screen test background */
+    background-color: ;       /* small screen test background */
   }
 
   .site-nav {
