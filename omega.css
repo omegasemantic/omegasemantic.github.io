@@ -1,0 +1,104 @@
+/* === Global styles === */
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: 'Roboto Mono', monospace, sans-serif;
+  font-size: 1.1rem;
+  color: #303030;
+}
+
+h1 {
+  font-size: 1.1rem;
+  color: #303030;
+}
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+.footer {
+  padding-top: 80px;
+  text-align: center;
+}
+
+/* === Navigation styling === */
+.site-nav {
+  padding: 12px 0;
+  margin: 0;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.page_nav a {
+  text-decoration: none;
+  color: #303030;
+}
+
+/* === Prose/List Styling === */
+.proseList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proseList li {
+  margin-bottom: 1.5rem;
+}
+
+.proseList a {
+  color: #303030;
+  text-decoration: none;
+}
+
+/* === Blockquote styling === */
+blockquote {
+  border-left: 2px dashed #707070;
+  margin: 1.5em 0;
+  padding-left: 1em;
+  color: #303030;
+  font-style: italic;
+  max-width: 360px;
+}
+
+blockquote p {
+  margin: 0.5em 0;
+}
+
+blockquote p:empty {
+  display: none;
+}
+
+/* === Main content (mobile-first) === */
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0rem;
+  line-height: 1.6;
+}
+
+/* Wide layout (default) */
+main.wide {
+  max-width: 640px;
+}
+
+/* Prose layout */
+main.prose {
+  max-width: 460px;
+}
+
+/* === Media query adjustments === */
+@media (min-width: 568px) {
+  main {
+    padding: 0 1rem 20px 1rem;
+  }
+
+  .site-nav {
+    margin: 1rem 0 5rem 1rem;
+  }
+}
+
