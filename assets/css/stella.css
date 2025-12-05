@@ -61,14 +61,14 @@ main {
     width: 100%;
     line-height: 1.6;
     padding: 0 1rem 20px 1rem;       /* left and right padding for small screens */
-    background-color: yellow;        /* small screen test background */
+    background-color: red;        /* small screen test background */
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
     main {
-        padding: 0 2rem 20px 2rem;   /* optionally increase padding for bigger screens */
-        background-color: blue;      /* big screen test background */
+        padding: 0 0rem 20px 0rem;   /* optionally increase padding for bigger screens */
+        background-color: green;      /* big screen test background */
     }
 
     .site-nav {
