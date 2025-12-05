@@ -1,21 +1,23 @@
 /* ********************************************************
  * NAME: STELLA.CSS
  * 
- * CSS STATUS: GOOD TO GO NOV 2025
+ * CSS STATUS: REWRITTEN TO MATCH IPHONE READER VIEW
 */
 
 body {
-    font-family: "Georgia";
+    font-family: Georgia, serif;
     font-size: 19px;
-    font-weight: normal;
-    max-width: 520px;
-    margin: auto;
-    line-height: 1.3;
+    line-height: 1.6;
+    max-width: 700px;           /* comfortable line length */
+    margin: auto;               /* center content */
+    padding: 0 1rem;            /* left/right inset for small screens */
+    background-color: #fdfdfd;  /* off-white like Reader View */
+    color: #111;
 }
 
 pre, code {
-    font-family: "Courier New";
-    max-width: 550px;
+    font-family: "Courier New", monospace;
+    max-width: 100%;
     margin: auto;
     font-weight: normal;
     white-space: pre-wrap;
@@ -26,7 +28,7 @@ h1 {
     font-size: 22px;
     text-align: center;
     margin-bottom: 40px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 h2 {
@@ -35,8 +37,7 @@ h2 {
     font-style: italic;
     font-weight: normal;
     max-width: 400px;
-    margin: auto;
-    margin-bottom: 20px;
+    margin: auto 0 20px 0;
 }
 
 h3 {
@@ -52,7 +53,6 @@ blockquote {
     font-style: italic;
     margin-top: 10px;
     margin-bottom: 30px;
-    margin-left: 0px;
     padding-left: 15px;
 }
 
@@ -60,15 +60,15 @@ blockquote {
 main {
     width: 100%;
     line-height: 1.6;
-    padding: 0 2rem 20px 2rem;       /* left and right padding for small screens */
-    background-color: red;        /* small screen test background */
+    padding: 1rem 1rem 20px 1rem;  /* inset text on small screens */
+    background-color: orange;       /* small screen test background */
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
     main {
-        padding: 0 0rem 20px 0rem;   /* optionally increase padding for bigger screens */
-        background-color: green;      /* big screen test background */
+        padding: 1rem 2rem 20px 2rem;  /* slightly larger padding for big screens */
+        background-color: purple;        /* big screen test background */
     }
 
     .site-nav {
