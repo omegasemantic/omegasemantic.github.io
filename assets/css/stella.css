@@ -60,7 +60,7 @@ blockquote {
 main {
     width: 100%;
     line-height: 1.6;
-    padding: 0 1rem 20px 1rem;       /* left and right padding for small screens */
+    padding: 0 2rem 20px 2rem;       /* left and right padding for small screens */
     background-color: red;        /* small screen test background */
 }
 
