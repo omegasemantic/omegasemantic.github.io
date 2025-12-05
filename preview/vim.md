@@ -11,7 +11,7 @@ permalink: /vim/
 ## By Vivian Simon  
   
   
-# *  
+### *  
   
 ## The Epic Poem  
   
@@ -20,7 +20,7 @@ permalink: /vim/
 # THE ADVENTURE OF VIM  
   
   
-# *  
+### *  
   
 # CHARACTERS  
   
@@ -56,7 +56,7 @@ THE EVIL TWINS: the children of the WOODCUTTERS (VIM's avaricious ex-foster pare
   
 THE CHORUS: a choir  
   
-# *  
+### *  
   
 # PROLOGUE  
   
@@ -65,7 +65,7 @@ THE CHORUS: a choir
   
 ### Two fairy children are captured and enslaved  
   
-> We see two fairy children playing in an idyllic forest glen. Suddenly thunder, lighting, wind. Wolves howl. The light turns orange and red like the fires of hell. An Ogre appears in a lightning flash. The scene is now terrifying, apocalyptic.  
+> We see two fairy children playing in an idyllic forest glen. Suddenly thunder, lighting, wind. Wolves howl. The light turns nge and red like the fires of hell. An Ogre appears in a lightning flash. The scene is now terrifying, apocalyptic.  
   
   
  In a magical forest two children were playing  
@@ -88,8 +88,8 @@ They cried and they moped, alas, without hope
 THE DIVINE PREDECESSOR and all their successors  
 Would now own the fairies and rule them forever  
   
-# ***  
-  
+### ***  
+
 # ACT ONE  
   
 ##  SCENE 1. EXT. TOWN SQUARE - NIGHT  
@@ -118,7 +118,7 @@ You will taste my blade for the trouble you've been
 The pair fought a duel. BELLAMIE fell bleeding.  
 CHERMIONE sneered, saying: What were you thinking?  
   
-# ***  
+### ***  
   
 But up from the body, a SPECTRE now flew  
 And said to CHERMIONE: You cur! I CURSE you!  
@@ -129,14 +129,14 @@ You come with me now, you will burn underground!
 The ghost gave a grab on CHERMIONE's arm  
 It left a black mark, the mark of the damned!  
   
-# ***  
+### ***  
   
 I care not for your CURSE, said CHERMIONE, in course  
   
 I am not of a mind, it is not in my nature  
 To repent, nor reflect on my deeds, now or later  
   
-# ***  
+### ***  
   
 The SPECTRE withdrew but gave one last wail  
 My CURSE, you rapscallion has a sting in its tail!  
@@ -147,7 +147,7 @@ Someone you love shall suffer for you!
 CHERMIONE said: You impotent ghost  
 I could not care less for this other you boast  
   
-# ***  
+### ***  
   
   
 ## SCENE 2. INT. CHERMIONE'S CASTLE - DAWN.  
@@ -171,7 +171,7 @@ WINKIPOP entered and CHERMIONE ruled:
 No time for jest! Hie thee hence from my sight  
 If you value your skin fetch THE QUEEN OF THE NIGHT!  
   
-# ***  
+### ***  
   
 ## JUST MOMENTS LATER ...  
   
@@ -190,7 +190,7 @@ LOVE POTION for wooing I hold to my right
 Mayhap it might help if you lived for forever?  
 Take my 'LIXIR OF LIFE--You will never find better!  
   
-# ***  
+### ***  
   
 THE QUEEN thus continued: Thou treasure not them?  
 Perhaps this enchanted and charmed DIADEM?  
@@ -198,7 +198,7 @@ Perhaps this enchanted and charmed DIADEM?
 If with this you crown one whose love labours wrong  
 C'est la vie, que sera, they will turn to a frog  
   
-# ***  
+### ***  
   
 Choose wisely CHERMIONE, you may not have three  
 I will give you but two for your clandestine need  
@@ -206,7 +206,7 @@ I will give you but two for your clandestine need
 CHERMIONE responded: LOVE POTION and CROWN  
 Would be just the thing when I'm out on the town!  
   
-# ***  
+### ***  
   
 DIADEMUS! Hither thus! CHERMIONE continued  
 Announce me a ball and recruit me a retinue  
@@ -217,7 +217,7 @@ I will wed, lift the CURSE, celebrate, promulgate!
 CHERMIONE gloated, and quick as you like  
 WINKIPOP stole THE ELIXIR OF LIFE!  
   
-# ***  
+### ***  
   
 ## EXT. DAWN. FOREST  
   
@@ -408,7 +408,7 @@ Ere before long, they will lose their head
 BUT SOMEONE COULD PROXY TO LOSE THEIRS INSTEAD!  
   
   
-# ***  
+### ***  
   
 Provoked into thought and somewhat agog  
 VIM spoke aloud in a short monologue:  
@@ -428,7 +428,7 @@ Or with myself?
 It is less of the logic  
 And more mental health  
   
-# ***  
+### ***  
   
 VIM reached a conclusion. They summoned their dog  
 Who had wings, and could fly, in a pantomime style  
@@ -442,7 +442,7 @@ Relay to THE GODS I would like to invert
 The sentence they hang over CHERMIONE's head  
 And offer my own, p'haps deluded, instead  
   
-# ***  
+### ***  
   
 ## EXT. TOWN SQUARE. NIGHT. LIT BY FLAMING TORCHES.  
   
@@ -464,7 +464,7 @@ But give me a drink, I must be fortified
   
 [kneels at the chopping block]  
   
-# ***  
+### ***  
   
 Was it nostalgia or was it unkind  
 When WINKIPOP offered a strawberry wine?  
@@ -472,7 +472,7 @@ When WINKIPOP offered a strawberry wine?
 Did nobody notice, although in plain sight  
 They added a dash of ELIXIR OF LIFE!  
   
-# ***  
+### ***  
   
 Off with their head! THE QUEEN OF HEARTS cried  
 Peevish from waiting to utter the line  
@@ -489,7 +489,7 @@ We strip them of rank and we send them away
 CHERMIONE we banish to exile alone  
 In the forest, and no more entitled a throne  
   
-# ***  
+### ***  
   
 ## EXT. NIGHT. FOREST. FULL MOON. NEARLY MIDNIGHT.  
   
@@ -506,7 +506,7 @@ O tragic twist! Reversal!
 VIM misconstrued the message!  
   
   
-# ***  
+### ***  
   
 HIKO, friend, VIM then said  
 I'm sad to say the wedding's off  
@@ -514,7 +514,7 @@ I know it sounds ridiculous
 But fly and tell DIAPHANOUS  
   
   
-# ***  
+### ***  
   
   
 I am undone said VIM  
@@ -525,7 +525,7 @@ It is I who must now die
   
 The FATES demand I make an impossible choice  
   
-# ***  
+### ***  
   
 To live?  
   
@@ -555,7 +555,7 @@ And blind my eyes lest truth's inquiry
   
 Cracks my mirrored face  
   
-# ***  
+### ***  
   
 O that this dark unfolding scene would be  
 Undone; the dreadful conclusion arranged  
@@ -563,7 +563,7 @@ Vanished as if dreamed parallels misplaced!
   
 Lo! Here comes DIAPHANOUS  
   
-# ***  
+### ***  
   
 Have you come to say goodbye? said VIM  
   
@@ -592,7 +592,7 @@ And that will be the all
   
 [dies]  
   
-# ***  
+### ***  
   
 ## EXT. DAWN. FOREST GLEN 
 
@@ -621,7 +621,7 @@ Return! Return to life!
   
 [VIM and DIAPHANOUS come back to life]  
   
-# ***  
+### ***  
   
 Hear them! Hear them! Hear them now! A tale of love and glory!  
 Hear THE QUEEN and WINKIPOP reveal in full the story!  
@@ -644,7 +644,7 @@ Thou dearest soul DIAPHANOUS, a wonder so divine!
 Lend us your grace, be too our child  
 Embrace, conjoin, combine!  
   
-# ***  
+### ***  
   
 I am so ripe with pleasure now, they all heard VIM declare  
 We must enact the wedding now. All must be prepared!  
