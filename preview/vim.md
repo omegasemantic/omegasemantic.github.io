@@ -4,9 +4,7 @@ permalink: /vim/
 ---  
   
 # . . .  
-# VIM  
-# AND  
-# THE DIADEM OF DOOM!  
+# VIM AND DIADEM OF DOOM!  
   
 ## By Vivian Simon  
   
