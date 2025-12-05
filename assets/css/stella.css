@@ -1,7 +1,7 @@
 /* ********************************************************
  * NAME: STELLA.CSS
  * 
- * CSS STATUS: REWRITTEN TO MATCH IPHONE READER VIEW
+ * CSS STATUS: FIXED HEADING ALIGNMENT + READER VIEW MOBILE-FIRST
 */
 
 body {
@@ -27,8 +27,7 @@ pre, code {
 h1 { 
     text-align: center;
     font-size: 22px;
-    margin-bottom: 40px;
-    margin-top: 0;
+    margin: 0 0 40px 0;
 }
 
 h2 {
@@ -36,14 +35,15 @@ h2 {
     text-align: center;
     font-style: italic;
     font-weight: normal;
-    max-width: 400px;
-    margin: auto 0 20px 0;
+    max-width: 400px;       /* optional; remove if too narrow */
+    margin: 0 auto 20px;    /* horizontal centering fixed */
     color: red;
 }
 
 h3 {
     text-align: center;
     font-size: 19px;
+    margin: 0 0 20px 0;
 }
 
 blockquote {
@@ -57,37 +57,36 @@ blockquote {
     padding-left: 15px;
 }
 
-
-/*
-
-
 /* === Main content (mobile-first) === */
 main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0rem;
-  line-height: 1.6;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem 20px 1rem; /* left/right padding on small screens */
+    line-height: 1.6;
+    background-color: yellow;  /* small screen test background */
+    border: 4px solid red;     /* test border for layout */
 }
 
-/* Wide layout (default) */
+/* Wide layout (optional) */
 main.wide {
-  max-width: 640px;
+    max-width: 640px;
 }
 
-/* Prose layout */
+/* Prose layout (optional) */
 main.prose {
-  max-width: 460px;
+    max-width: 460px;
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
-  main {
-    padding: 0 1rem 20px 1rem;
-    background-color: ;       /* small screen test background */
-  }
+    main {
+        padding: 0 2rem 20px 2rem;  /* slightly larger padding for bigger screens */
+        background-color: blue;     /* big screen test background */
+        border: 4px solid green;    /* test border */
+    }
 
-  .site-nav {
-    margin: 1rem 0 5rem 1rem;
-  }
+    .site-nav {
+        margin: 1rem 0 5rem 1rem;
+    }
 }
 
