@@ -64,15 +64,36 @@ main {
     background-color: orange;       /* small screen test background */
 }
 
+/*
+
+
+/* === Main content (mobile-first) === */
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0rem;
+  line-height: 1.6;
+}
+
+/* Wide layout (default) */
+main.wide {
+  max-width: 640px;
+}
+
+/* Prose layout */
+main.prose {
+  max-width: 460px;
+}
+
 /* === Media query adjustments === */
 @media (min-width: 568px) {
-    main {
-        padding: 1rem 2rem 20px 2rem;  /* slightly larger padding for big screens */
-        background-color: purple;        /* big screen test background */
-    }
+  main {
+    padding: 0 1rem 20px 1rem;
+    background-color: red;       /* small screen test background */
+  }
 
-    .site-nav {
-        margin: 1rem 0 5rem 1rem;
-    }
+  .site-nav {
+    margin: 1rem 0 5rem 1rem;
+  }
 }
 
