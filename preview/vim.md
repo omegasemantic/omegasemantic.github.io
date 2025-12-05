@@ -19,9 +19,8 @@ permalink: /vim/
   
 # THE ADVENTURE OF VIM  
   
+  
 # *  
-  
-  
   
 # CHARACTERS  
   
@@ -69,7 +68,7 @@ THE CHORUS: a choir
 > We see two fairy children playing in an idyllic forest glen. Suddenly thunder, lighting, wind. Wolves howl. The light turns orange and red like the fires of hell. An Ogre appears in a lightning flash. The scene is now terrifying, apocalyptic.  
   
   
-In a magical forest two children were playing  
+ In a magical forest two children were playing  
 The children were fairies, that goes without saying  
   
 But then with a crash and a shriek and a scream  

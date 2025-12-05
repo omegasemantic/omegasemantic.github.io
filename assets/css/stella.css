@@ -1,92 +1,132 @@
-/* ********************************************************
- * NAME: STELLA.CSS
- * 
- * CSS STATUS: FIXED HEADING ALIGNMENT + READER VIEW MOBILE-FIRST
-*/
+/* === Global styles === */
 
 body {
-    font-family: Georgia, serif;
-    font-size: 19px;
-    line-height: 1.6;
-    max-width: 700px;           /* comfortable line length */
-    margin: auto;               /* center content */
-    padding: 0 1rem;            /* left/right inset for small screens */
-    background-color: #fdfdfd;  /* off-white like Reader View */
-    color: #111;
+	font-family: "Georgia";
+	font-size: 19px;
+	font-weight: normal;
+	max-width:550px;
+	margin:auto;
+	line-height:1.3;
 }
-
-pre, code {
-    font-family: "Courier New", monospace;
-    max-width: 100%;
-    margin: auto;
-    font-weight: normal;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-
 h1 { 
-    text-align: center;
-    font-size: 22px;
-    margin: 0 0 40px 0;
+	font-size: 19px;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 0px;
+    color:;
 }
 
 h2 {
-    font-size: 19px;
-    text-align: center;
-    font-style: italic;
-    font-weight: normal;
-    max-width: 400px;       /* optional; remove if too narrow */
-    margin: 0 auto 20px;    /* horizontal centering fixed */
-    color: red;
+	font-size: 19px;
+	text-align: center;
+	font-style: italic;
+	font-weight: normal;
+	max-width: 550;
+	margin-bottom:20px;
+    color:;
 }
 
 h3 {
-    text-align: center;
-    font-size: 19px;
-    margin: 0 0 20px 0;
+	font-size: 19px;
+	text-align: center;
+    color: ;
 }
 
 blockquote {
-    margin: auto;
-    text-align: center;
-    max-width: 600px;
-    border-left: 3px solid #ccc;
-    font-style: italic;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    padding-left: 15px;
+	margin:auto;
+	text-align:center;
+	max-width: 550px;
+	border-left: 3px solid #ccc;
+	font-style: italic;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	padding-left: 15px;
+    color:;
+
+	
+}
+
+
+
+.logo {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+.footer {
+  padding-top: 80px;
+  text-align: center;
+}
+
+/* === Navigation styling === */
+.site-nav {
+  padding: 12px 0;
+  margin: 0;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #303030;
+}
+
+.page_nav a {
+  text-decoration: none;
+  color: #303030;
+}
+
+/* === Prose/List Styling === */
+.proseList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.proseList li {
+  margin-bottom: 1.5rem;
+}
+
+.proseList a {
+  color: #303030;
+  text-decoration: none;
+}
+
+
+blockquote p {
+  margin: 0.5em 0;
+}
+
+blockquote p:empty {
+  display: none;
 }
 
 /* === Main content (mobile-first) === */
 main {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 1rem 20px 1rem; /* left/right padding on small screens */
-    line-height: 1.6;
-    background-color: yellow;  /* small screen test background */
-    border: 4px solid red;     /* test border for layout */
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0rem;
+  line-height: 1.6;
 }
 
-/* Wide layout (optional) */
+/* Wide layout (default) */
 main.wide {
-    max-width: 640px;
+  max-width: 640px;
 }
 
-/* Prose layout (optional) */
+/* Prose layout */
 main.prose {
-    max-width: 460px;
+  max-width: 460px;
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
-    main {
-        padding: 0 2rem 20px 2rem;  /* slightly larger padding for bigger screens */
-        background-color: blue;     /* big screen test background */
-        border: 4px solid green;    /* test border */
-    }
+  main {
+    padding: 0 1rem 20px 1rem;
+  }
 
-    .site-nav {
-        margin: 1rem 0 5rem 1rem;
-    }
+  .site-nav {
+    margin: 1rem 0 5rem 1rem;
+  }
 }
 
