@@ -1,7 +1,8 @@
 ---
 layout: prose
-title: Demo
+title: Vim Dev Preview
 css: /assets/css/stella.css
+permalink: /vim/
 ---
 
     
