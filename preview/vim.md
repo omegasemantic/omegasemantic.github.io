@@ -10,7 +10,7 @@ css: /assets/css/stella.css
 ## By Vivian Simon    
     
     
-### \*    
+### *    
     
 ## The Epic Poem    
     

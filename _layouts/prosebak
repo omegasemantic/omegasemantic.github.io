@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  {% if page.css %}
+  <link rel="stylesheet" href="{{ page.css }}">
+  {% endif %}
+
+
+
+</head>
+<body>
+
+<!-- Site Navigation -->
+<div class="site-nav">
+
+
+<A CLASS="LOGO"
+   href="{% if page.url == '/' %}
+            {{ '/lobby/' | relative_url }}
+         {% else %}
+            {{ '/' | relative_url }}
+         {% endif %}">
+  <span class="logo">+|+</span>
+</a>
+
+
+
+
+
+</div>
+
+<!-- Main content (prose width 460px) -->
+<main class="prose">
+  {{ content }}
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <span class="endnote"></span>
+</FOOTER>
+
+<!-- Analytics / Scripts -->
+<script data-goatcounter="https://omega.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>
+
