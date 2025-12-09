@@ -7,7 +7,7 @@ container: wide-container
 ---
 
 
-welcome to the lobby
+hey welcome to the lobby
 
 [Open the Vim page](/preview/vim/)
 
