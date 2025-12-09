@@ -2,7 +2,6 @@
 title: "A : B"
 rank: 30
 layout: prose
-pagetype: story
 ---
 
 # A : B  

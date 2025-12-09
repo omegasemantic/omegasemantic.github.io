@@ -8,10 +8,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 
-  <link rel="stylesheet" href="/assets/css/main.css">
-  {% if page.css %}
+<!-- Always include the site’s main CSS file -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- Conditionally include a page-specific CSS file -->
+{% if page.css %}
+  <!-- If the current page defines a 'css' variable in its front matter, include that CSS file -->
   <link rel="stylesheet" href="{{ page.css }}">
-  {% endif %}
+{% endif %}
 
 
 
@@ -37,7 +41,7 @@
 
 </div>
 
-<!-- Main content (prose width 460px) -->
+<!-- Main content  -->
 <main> 
   {{ content }}
 </main>

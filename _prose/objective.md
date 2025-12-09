@@ -2,7 +2,6 @@
 title: "the objective"
 rank: 60
 layout: prose
-pagetype: story
 ---
 
 # the objective  

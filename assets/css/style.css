@@ -29,11 +29,7 @@ h1 {
   margin: 0;
 }
 
-.site-nav a {
-  text-decoration: none;
-  color: #303030;
-}
-
+.site-nav a,
 .page_nav a {
   text-decoration: none;
   color: #303030;
@@ -57,12 +53,13 @@ h1 {
 
 /* === Blockquote styling === */
 blockquote {
-  border-left: 2px dashed #707070;
-  margin: 1.5em 0;
-  padding-left: 1em;
+  border-left: 2px dashed #707070;  /* vertical bar */
+  padding-left: 1em;                /* space between bar and text */
+  margin: 1.5em 0;                  /* vertical spacing only */
   color: #303030;
   font-style: italic;
-  max-width: 360px;
+  max-width: 360px;                  /* optional: keeps text readable */
+  /* Removed margin-left:auto and margin-right:auto */
 }
 
 blockquote p {
@@ -73,22 +70,21 @@ blockquote p:empty {
   display: none;
 }
 
-/* === Main content (mobile-first) === */
+blockquote p {
+  margin: 0.5em 0;
+}
+
+blockquote p:empty {
+  display: none;
+}
+
+/* === Main content (mobile-first, centered with gutters) === */
 main {
   width: 100%;
-  margin: 0 auto;
-  padding: 0 0rem;
+  max-width: 460px;     /* adopt stella.css container width */
+  margin: 0 auto;       /* center horizontally */
+  padding: 0 1rem;      /* small horizontal padding */
   line-height: 1.6;
-}
-
-/* Wide layout (default) */
-main.wide {
-  max-width: 640px;
-}
-
-/* Prose layout */
-main.prose {
-  max-width: 460px;
 }
 
 /* === Media query adjustments === */
@@ -101,4 +97,5 @@ main.prose {
     margin: 1rem 0 5rem 1rem;
   }
 }
+
 
