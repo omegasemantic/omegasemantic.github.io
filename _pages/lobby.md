@@ -11,7 +11,7 @@ hey you welcome to the lobby
 
 
 
-[Check out Vim preview](/preview/vim.html)
+[Check out Vim preview](/vim/)
 
 
 
