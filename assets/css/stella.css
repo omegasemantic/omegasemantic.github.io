@@ -108,17 +108,10 @@ main {
   margin: 0 auto;
   padding: 0 0rem;
   line-height: 1.6;
+  max-width: 520px;
 }
 
-/* Wide layout (default) */
-main.wide {
-  max-width: 640px;
-}
 
-/* Prose layout */
-main.prose {
-  max-width: 460px;
-}
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {

@@ -2,8 +2,6 @@
 layout: prose
 title: lobby
 permalink: /lobby/
-nav: true
-container: wide-container
 ---
 
 
