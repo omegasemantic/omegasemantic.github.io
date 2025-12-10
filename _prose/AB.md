@@ -1,7 +1,7 @@
 ---
 title: "A : B"
 rank: 30
-layout: prose
+layout: default
 ---
 
 # A : B  

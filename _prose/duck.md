@@ -1,7 +1,7 @@
 ---
 title: "the journey of duck"
 rank: 40
-layout: prose
+layout: default
 ---
 
 # the journey of duck    

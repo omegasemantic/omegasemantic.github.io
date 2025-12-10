@@ -1,67 +1,63 @@
-/* === stella.css  === */
+/* === stella.css === */
 
-
-
-
+/* === Base Styles === */
 body {
-	font-family: "Georgia";
-	font-size: 19px;
-	font-weight: normal;
-	max-width:550px;
-	margin:auto;
-	line-height:1.3;
+    font-family: "Georgia";
+    font-size: 19px;
+    font-weight: normal;
+    max-width: 550px;
+    margin: auto;
+    line-height: 1.3;
     color:;
 }
-h1 { 
-	font-size: 19px;
-	text-align: center;
-	margin-bottom: 20px;
-	margin-top: 0px;
+
+h1 {
+    font-size: 19px;
+    text-align: center;
+    margin: 0 0 20px 0;
     color:;
 }
 
 h2 {
-	font-size: 19px;
-	text-align: center;
-	font-style: italic;
-	font-weight: normal;
-	max-width: 550;
+    font-size: 19px;
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+    max-width: 550px;
     color:;
 }
 
 h3 {
-	font-size: 19px;
-	text-align: center;
-    color: ;
-	line-height:1.3;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.3;
+    color:;
 }
 
 blockquote {
-	margin:auto;
-	text-align:center;
-	max-width: 550px;
-	border-left: 3px solid #ccc;
-	font-style: italic;
-	margin-top: 10px;
-	margin-bottom: 30px;
-	margin-left: 0px;
-	padding-left: 15px;
+    max-width: 550px;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    border-left: 3px solid #ccc;
+    font-style: italic;
+    padding-left: 15px;
     color:;
 }
 
 blockquote p {
-  margin: 0.5em 0;
+    margin: 0.5em 0;
 }
 
 blockquote p:empty {
-  display: none;
+    display: none;
 }
-/* === Media query adjustments === */
-@media (min-width: 568px) {
-  main {
-    max-width: 640px;  
-    padding: 0 1rem 20px 1rem;
-    background-color:red ;
-  }
 
+/* === Media Queries === */
+@media (min-width: 568px) {
+    main {
+        max-width: 640px;
+        padding: 0 1rem 20px 1rem;
+        background-color:;
+    }
+}
 

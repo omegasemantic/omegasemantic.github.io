@@ -1,7 +1,7 @@
 ---
 title: "Rosen, Letter, and Pasupe"
 rank: 70
-layout: prose
+layout: default
 ---
 
 # Rosen, Letter, and Pasupe        

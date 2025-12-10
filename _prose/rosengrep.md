@@ -1,7 +1,7 @@
 ---
 title: "Rosen, Grep, and Pasupe"
 rank: 10
-layout: prose
+layout: default
 ---
 
 # Rosen, Grep, and Pasupe      

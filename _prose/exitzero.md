@@ -1,7 +1,7 @@
 ---
 title: "exit zero"
 rank: 50
-layout: prose
+layout: default
 ---
 
 # exit zero  

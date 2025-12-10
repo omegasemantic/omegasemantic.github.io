@@ -1,7 +1,7 @@
 ---
 title: "the objective"
 rank: 60
-layout: prose
+layout: default
 ---
 
 # the objective  

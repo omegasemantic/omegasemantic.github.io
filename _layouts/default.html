@@ -4,33 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ '/assets/css/omega.css' | relative_url }}">
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/assets/css/global.css">
+
+  <!-- Page-specific CSS -->
+  {% if page.css %}
+    <link rel="stylesheet" href="{{ page.css }}">
+  {% endif %}
+
 </head>
 <body>
 
 <!-- Site Navigation -->
 <div class="site-nav">
-  <a class="logo"
-     href="{% if page.url == '/lobby/' %}
-              {{ '/' | relative_url }}
-            {% else %}
-              {{ '/lobby/' | relative_url }}
-            {% endif %}">
-    <span class="logo">+|+</span>
-  </a>
+
+<A CLASS="LOGO"
+   href="{% if page.url == '/' %}
+            {{ '/lobby/' | relative_url }}
+         {% else %}
+            {{ '/' | relative_url }}
+         {% endif %}">
+  <span class="logo">+|+</span>
+</a>
+
 </div>
 
-<!-- Main Content -->
-<main >
+<!-- Main content  -->
+<main> 
   {{ content }}
 </main>
 
 <!-- Footer -->
 <footer class="footer">
   <span class="endnote"></span>
-</footer>
+</FOOTER>
 
 <!-- Analytics / Scripts -->
 <script data-goatcounter="https://omega.goatcounter.com/count"

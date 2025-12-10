@@ -1,7 +1,7 @@
 ---
 title: "frog|bird"
 rank: 20
-layout: prose
+layout: default
 ---
 
 # frog|bird          
