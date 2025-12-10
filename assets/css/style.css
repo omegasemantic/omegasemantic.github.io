@@ -1,11 +1,11 @@
 /* === Global styles === */
 body {
   margin: 0;
-  padding: 0rem;
+  padding: 0 2rem;
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
   color: #303030;
-  background-color: orange;
+  background-color: purple;
 }
 
 h1 {
