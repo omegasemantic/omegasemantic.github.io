@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
   color: #303030;
+  background-color: blue;
 }
 
 h1 {
@@ -81,16 +82,18 @@ blockquote p:empty {
 /* === Main content (mobile-first, centered with gutters) === */
 main {
   width: 100%;
-  max-width: 460px;     /* adopt stella.css container width */
+  max-width: 460px;  
   margin: 0 auto;       /* center horizontally */
-  padding: 0 1rem;      /* small horizontal padding */
+  padding: 0 2rem;      /* small horizontal padding */
   line-height: 1.6;
+  background-color: red;
 }
 
 /* === Media query adjustments === */
 @media (min-width: 568px) {
   main {
     padding: 0 1rem 20px 1rem;
+    background-color: yellow;
   }
 
   .site-nav {
