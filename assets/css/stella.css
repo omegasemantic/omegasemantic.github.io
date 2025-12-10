@@ -1,11 +1,7 @@
-/* === Global styles === */
+/* === stella.css  === */
 
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 body {
 	font-family: "Georgia";
@@ -51,55 +47,7 @@ blockquote {
 	margin-left: 0px;
 	padding-left: 15px;
     color:;
-
-	
 }
-
-
-
-.logo {
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #303030;
-}
-
-.footer {
-  padding-top: 80px;
-  text-align: center;
-}
-
-/* === Navigation styling === */
-.site-nav {
-  padding: 12px 0;
-  margin: 0;
-}
-
-.site-nav a {
-  text-decoration: none;
-  color: #303030;
-}
-
-.page_nav a {
-  text-decoration: none;
-  color: #303030;
-}
-
-/* === Prose/List Styling === */
-.proseList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.proseList li {
-  margin-bottom: 1.5rem;
-}
-
-.proseList a {
-  color: #303030;
-  text-decoration: none;
-}
-
 
 blockquote p {
   margin: 0.5em 0;
@@ -108,27 +56,12 @@ blockquote p {
 blockquote p:empty {
   display: none;
 }
-
-/* === Main content (mobile-first) === */
-main {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0rem;
-  line-height: 1.6;
-  max-width: 520px;
-    box-sizing: border-box;
-}
-
-
-
 /* === Media query adjustments === */
 @media (min-width: 568px) {
   main {
+    max-width: 640px;  
     padding: 0 1rem 20px 1rem;
+    background-color:red ;
   }
 
-  .site-nav {
-    margin: 1rem 0 5rem 1rem;
-  }
-}
 
