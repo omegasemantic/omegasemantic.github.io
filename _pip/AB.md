@@ -8,7 +8,7 @@ layout: default
 
 > They bent over the exhibits, studying them gravely, but without touching them.
 
-tnspired so by these items, I change my name, one said.
+Inspired so by these items, I change my name, one said.
 
 From now on, please address me: Exhibit A.
 

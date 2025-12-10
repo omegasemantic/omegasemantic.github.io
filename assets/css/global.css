@@ -87,7 +87,7 @@ main {
 /* === Media query adjustments === */
 @media (min-width: 568px) {
     main {
-        max-width: 460px;
+        max-width: 478px;
         padding: 0 1rem 20px 1rem;
         background-color:;
     }
