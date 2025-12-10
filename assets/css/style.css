@@ -88,7 +88,6 @@ blockquote p:empty {
 
 /* === Main content (mobile-first, centered with gutters) === */
 main {
-  box-sizing: border-box;
   width: 100%;
   max-width: 460px;  
   margin: 0 auto;       /* center horizontally */
