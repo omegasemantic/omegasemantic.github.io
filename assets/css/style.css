@@ -85,7 +85,8 @@ main {
   max-width: 460px;  
   margin: 0 auto;       /* center horizontally */
   line-height: 1.6;
-  background-color: pink;
+  background-color: red;
+  padding: 0 1rem;
 }
 
 /* === Media query adjustments === */
