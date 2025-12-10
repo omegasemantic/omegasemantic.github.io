@@ -4,27 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }} | {{ site.title }}</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{ 'assets/css/style.css' | relative_url }}">
 
-<!-- Always include the site’s main CSS file -->
-<link rel="stylesheet" href="/assets/css/main.css">
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
 
-<!-- Conditionally include a page-specific CSS file -->
-{% if page.css %}
-  <!-- If the current page defines a 'css' variable in its front matter, include that CSS file -->
-  <link rel="stylesheet" href="{{ page.css }}">
-{% endif %}
-
-
+  <!-- Page-specific CSS -->
+  {% if page.css %}
+    <link rel="stylesheet" href="{{ page.css }}">
+  {% endif %}
 
 </head>
 <body>
 
 <!-- Site Navigation -->
 <div class="site-nav">
-
 
 <A CLASS="LOGO"
    href="{% if page.url == '/' %}
@@ -34,10 +29,6 @@
          {% endif %}">
   <span class="logo">+|+</span>
 </a>
-
-
-
-
 
 </div>
 
