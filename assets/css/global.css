@@ -1,7 +1,6 @@
 /* === Global styles === */
-*,
-*::before,
-*::after {
+
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -41,18 +40,19 @@ h1,
     color: #303030;
 }
 
-/* === Prose/List Styling === */
-.proseList {
+/* === pip/List Styling === */
+.pipList {
     list-style: none;
     padding: 0;
     margin: 0;
+    color:red;
 }
 
-.proseList li {
+.pipList li {
     margin-bottom: 1.5rem;
 }
 
-.proseList a {
+.pipList a {
     color: #303030;
     text-decoration: none;
 }

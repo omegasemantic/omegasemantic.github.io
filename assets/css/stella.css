@@ -1,47 +1,44 @@
-/* === stella.css === */
+/* === stella.css — typography + main width only === */
 
-/* === Base Styles === */
+/* Typography */
 body {
     font-family: "Georgia";
-    font-size: 19px;
-    font-weight: normal;
-    max-width: 550px;
-    margin: auto;
+    font-size: 1.2rem;
     line-height: 1.3;
+    font-weight: normal;
     color:;
 }
 
+/* Headings */
 h1 {
-    font-size: 19px;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 0 0 20px 0;
+    margin: 0 0 1rem 0;
     color:;
 }
 
 h2 {
-    font-size: 19px;
+    font-size: 1.2rem;
     text-align: center;
     font-style: italic;
     font-weight: normal;
-    max-width: 550px;
-    color:;
+    margin-top: 2rem;
 }
 
 h3 {
-    font-size: 19px;
+    font-size: 1.2rem;
     text-align: center;
     line-height: 1.3;
     color:;
 }
 
+/* Blockquote (typography only) */
 blockquote {
-    max-width: 550px;
-    margin: 10px auto 30px auto;
-    text-align: center;
+    max-width: 100%;
+    text-align: left;
     border-left: 3px solid #ccc;
     font-style: italic;
-    padding-left: 15px;
-    color:;
+    padding-left: 1rem;
 }
 
 blockquote p {
@@ -52,12 +49,8 @@ blockquote p:empty {
     display: none;
 }
 
-/* === Media Queries === */
-@media (min-width: 568px) {
-    main {
-        max-width: 640px;
-        padding: 0 1rem 20px 1rem;
-        background-color:;
-    }
+/* === Stella page width override === */
+main {
+    max-width: 540px;
 }
 

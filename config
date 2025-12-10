@@ -4,9 +4,9 @@
 # Collections
 # --------------------------------------------------
 collections:
-  pip:                 # lives in _pip/
+  prose:                 # lives in _prose/
     output: true
-    permalink: /pip/:name/
+    permalink: /prose/:name/
   pages:                 # lives in _pages/
     output: true
 

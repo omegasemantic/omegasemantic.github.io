@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Vim Dev Preview
+title: test
 css: /assets/css/stella.css
 permalink: /vim/
 ---
+
+
+
 
     
 # VIM AND DIADEM OF DOOM!    
@@ -13,9 +16,8 @@ permalink: /vim/
     
 ### *    
     
-## The Epic Poem    
-    
-## Based upon the musical play    
+## The Epic Poem   
+## Based Upon the Musical Play    
     
 # THE ADVENTURE OF VIM    
     

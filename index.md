@@ -1,13 +1,13 @@
 ---
 layout: default
-title: prose
+title: pip
 permalink: /
 ---
 
-<div class="proseList">
-  {% assign sorted_prose = site.prose | sort: "rank" %}
-  {% for prose in sorted_prose %}
-    <p><a href="{{ prose.url | relative_url }}">: {{ prose.title }}</a></p>
+<div class="pipList">
+  {% assign sorted_pip = site.pip | sort: "rank" %}
+  {% for pip in sorted_pip %}
+    <p><a href="{{ pip.url | relative_url }}">: {{ pip.title }}</a></p>
   {% endfor %}
 </div>
 

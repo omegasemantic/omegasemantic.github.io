@@ -5,11 +5,10 @@ permalink: /lobby/
 ---
 
 
-hey you welcome to the lobby
 
 
 
-[Check out Vim preview](/vim/)
+[VIM & DIADEM OF DOOM PREVIEW](/vim/)
 
 
 
