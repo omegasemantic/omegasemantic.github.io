@@ -84,10 +84,10 @@ main {
   width: 100%;
   max-width: 460px;  
   margin: 0 auto;       /* center horizontally */
-  padding-left: 0rem;      /* small horizontal padding */
-  padding-right: 0rem;      /* small horizontal padding */
+  padding-left: 1rem;      /* small horizontal padding */
+  padding-right: 1rem;      /* small horizontal padding */
   line-height: 1.6;
-  background-color: green;
+  background-color: pink;
 }
 
 /* === Media query adjustments === */
