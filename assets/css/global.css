@@ -94,6 +94,8 @@ main {
 
     .site-nav {
         margin: 1rem 0 5rem 1rem;
+        background-color:;
+        padding-left:2rem;
     }
 }
 

@@ -7,25 +7,11 @@ collections:
   prose:                 # lives in _prose/
     output: true
     permalink: /prose/:name/
-  sandbox:                 # lives in _sandbox/
-    output: true
-    permalink: /sandbox/:name/
-  pages:                   # lives in _pages/
+  pages:                 # lives in _pages/
     output: true
 
 # Don't cache
 incremental: false
-
-# --------------------------------------------------
-# Defaults
-# --------------------------------------------------
-# Apply a default layout to all items in _sandbox/
-defaults:
-  - scope:
-      path: "_sandbox"
-      type: sandbox
-    values:
-      layout: default
 
 # --------------------------------------------------
 # Exclude
@@ -38,7 +24,3 @@ exclude: []
 # --------------------------------------------------
 # Development:
 #   bundle exec jekyll serve
-#
-# Production (exclude sandbox via _config_prod.yml):
-#   JEKYLL_ENV=production bundle exec jekyll serve --config _config.yml,_config_prod.yml
-

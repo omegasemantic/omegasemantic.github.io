@@ -1,9 +1,7 @@
 ---
-layout: prose
+layout: default
 title: prose
-nav: false 
 permalink: /
-pagetype: landing
 ---
 
 <div class="proseList">

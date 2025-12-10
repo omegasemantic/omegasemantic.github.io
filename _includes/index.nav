@@ -1,5 +1,0 @@
-
-  <nav class="site-nav">
-    <p><a href="{{ '/about/' | relative_url }}">: definitions</a> </p>
-    <a href="{{ '/prose/' | relative_url }}">: prose</a> 
-  </nav>

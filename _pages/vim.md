@@ -1,5 +1,5 @@
 ---
-layout: prose
+layout: default
 title: Vim Dev Preview
 css: /assets/css/stella.css
 permalink: /vim/

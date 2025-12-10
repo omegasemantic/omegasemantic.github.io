@@ -1,5 +1,5 @@
 ---
-layout: prose
+layout: default
 title: lobby
 permalink: /lobby/
 ---
