@@ -1,11 +1,11 @@
 /* === Global styles === */
 body {
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 1rem;
   font-family: 'Roboto Mono', monospace, sans-serif;
   font-size: 1.1rem;
   color: #303030;
-  background-color: purple;
+  background-color: yellow;
 }
 
 h1 {
@@ -84,8 +84,6 @@ main {
   width: 100%;
   max-width: 460px;  
   margin: 0 auto;       /* center horizontally */
-  padding-left: 1rem;      /* small horizontal padding */
-  padding-right: 1rem;      /* small horizontal padding */
   line-height: 1.6;
   background-color: pink;
 }
