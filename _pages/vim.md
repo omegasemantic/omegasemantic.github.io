@@ -14,16 +14,15 @@ permalink: /vim/
 ## By Vivian Simon    
     
     
-### *    
+### ~    
     
 ## The Epic Poem   
 ## Based Upon the Musical Play    
-<br>
     
-# THE ADVENTURE OF VIM    
+## THE ADVENTURES OF VIM    
     
     
-### *    
+### ~    
     
 # CHARACTERS    
     
@@ -59,7 +58,7 @@ THE EVIL TWINS: the children of the WOODCUTTERS (VIM's avaricious ex-foster pare
     
 THE CHORUS: a choir    
     
-### *    
+### ~    
     
 # PROLOGUE    
     
@@ -71,7 +70,7 @@ THE CHORUS: a choir
 > We see two fairy children playing in an idyllic forest glen. Suddenly thunder, lighting, wind. Wolves howl. The light turns orange and red like the fires of hell. An Ogre appears in a lightning flash. The scene is now terrifying, apocalyptic.    
     
     
- In a magical forest two children were playing    
+In a magical forest two children were playing    
 The children were fairies, that goes without saying    
     
 But then with a crash and a shriek and a scream    
@@ -91,7 +90,7 @@ They cried and they moped, alas, without hope
 THE DIVINE PREDECESSOR and all their successors    
 Would now own the fairies and rule them forever    
     
-### ***    
+### ~
   
 # ACT ONE    
     
@@ -110,7 +109,7 @@ ROCOCO was pleading in tones of dismay
 And down on the street with an air bellicose    
 CHERMIONE was preening and striking a pose    
     
-# ***    
+### ***    
     
 Then down the stairs with a hat and a sword    
 Out ran BELLAMIE. ROCOCO was their ward!    
@@ -152,7 +151,7 @@ Someone you love shall suffer for you!
 CHERMIONE said: You impotent ghost    
 I could not care less for this other you boast    
     
-### ***    
+### ~
     
     
 ## SCENE 2. INT. CHERMIONE'S CASTLE - DAWN.    
@@ -222,7 +221,7 @@ I will wed, lift the CURSE, celebrate, promulgate!
 CHERMIONE gloated, and quick as you like    
 WINKIPOP stole THE ELIXIR OF LIFE!    
     
-### ***    
+### ~
     
 ## SCENE 3.EXT. FOREST. DAWN. 
     
@@ -265,7 +264,7 @@ And said: VIM, you shall go to the ball!
 O, please do not bray, pleaded VIM in dismay    
 If you just go away, and I must, I will answer the call    
     
-# ***    
+### ~
     
 ## SCENE 4. INT. OR EXT. NIGHT. 
     
@@ -293,13 +292,14 @@ The CROWN was emplaced on the CHOSEN ONE's nog
 Exactly as forecast, in less than a pulse    
 The CHOSEN ONE turned to a FROG    
     
-# ***    
+
+### ~
     
 ## SCENE 5. EXT. FOREST. NIGHT.     
      
 ### Vim and Chermione have an encounter in the forest    
     
-> The ball ended early and we're back in the forest with plenty of night time left. VIM picks fruit in the moonlight. CHERMIONE wanders into scene: they're walking off the tribulations of the wedding.
+> The ball ended early and we're back in the forest with plenty of night time left. VIM picks fruit in the moonlight. CHERMIONE, walking off the tribulations of the wedding, wanders into scene.
 
 The ball now concluded so back to the forest    
 Went VIM to retire and revert    
@@ -326,7 +326,7 @@ It was not the season for romantic charms
 And swooning and gaping, without really waiting    
 They fell into each others arms    
     
-# ***    
+### ~
     
 ## SCENE 6. CONTINUING EXT. FOREST. A LITTLE BIT LATER. NIGHT.
     
@@ -364,7 +364,8 @@ Swore VIM to a secretive oath
 Though somewhat deflated, yet slightly elated    
 VIM said: Perhaps this is best for us both    
     
-    
+### ~
+
 # ACT TWO    
     
 ## SCENE 1. EXT. FOREST. DAWN.   
@@ -409,7 +410,7 @@ We shall wed tonight, I have no second thoughts!
 THE QUEEN OF THE NIGHT said: We must now depart    
 But we shall return when the union should start    
     
-# ***    
+### ~
     
 ## SCENE 2. CONTINUING DAWN IN THE FOREST.    
     
@@ -461,8 +462,8 @@ Relay to THE GODS I would like to invert
 The sentence they hang over CHERMIONE's head    
 And offer my own, p'haps deluded, instead    
     
-### ***    
-    
+### ~
+
 ## SCENE 4.EXT. TOWN SQUARE. NIGHT. LIT BY FLAMING TORCHES.    
     
 ### Chaos at the execution and Chermione is punished by The Gods    
@@ -509,8 +510,8 @@ We strip them of rank and we send them away
     
 CHERMIONE we banish to exile alone    
 In the forest, and no more entitled a throne    
-    
-### ***    
+
+### ~
     
 ## SCENE 5.EXT. NIGHT. FOREST. FULL MOON. NEARLY MIDNIGHT.    
     
@@ -611,7 +612,7 @@ And that will be the all
     
 [dies]    
     
-### ***    
+### ~
     
 ## SCENE 6. EXT. DAWN. FOREST GLEN   
 
