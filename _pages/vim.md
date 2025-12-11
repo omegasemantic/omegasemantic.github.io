@@ -16,15 +16,15 @@ permalink: /vim/
 
 ### *  
 
-## The Epic Poem  
+### The Epic Poem  
 ## Based Upon the Musical Play  
-<br>  
+
 
 # THE ADVENTURE OF VIM  
 
-<br>  
 
-### *  
+## ~  
+
 
 # CHARACTERS  
 
@@ -60,7 +60,7 @@ THE EVIL TWINS: the children of the WOODCUTTERS (VIM's avaricious ex-foster pare
 
 THE CHORUS: a choir  
 
-### *  
+## ~  
 
 # PROLOGUE  
 
@@ -92,7 +92,7 @@ They cried and they moped, alas, without hope
 THE DIVINE PREDECESSOR and all their successors  
 Would now own the fairies and rule them forever  
 
-### ***  
+## ~  
 
 # ACT ONE  
 
@@ -153,7 +153,7 @@ Someone you love shall suffer for you!
 CHERMIONE said: You impotent ghost  
 I could not care less for this other you boast  
 
-### ***  
+## ~  
 
 
 ## SCENE 2. INT. CHERMIONE'S CASTLE - DAWN.  
