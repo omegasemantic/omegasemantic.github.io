@@ -307,7 +307,7 @@ The wedding had not gone to plan
 VIM said: Hello! Perhaps we might dance?  
 I have strawberry wine and some jam  
 
-But you have the CURSE? It is spoke on the vine  
+But your curse? Vim appends: It is spoke on the vine!
 Perhaps this is not quite the opportune time?  
 
 CHERMIONE responded: O, I am not fraught  
