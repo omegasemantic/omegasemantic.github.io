@@ -22,6 +22,7 @@ permalink: /vim/
 
 # THE ADVENTURE OF VIM  
 
+<br>  
 
 ### *  
 
