@@ -19,7 +19,7 @@ permalink: /vim/
 ## The Epic Poem  
 ## Based Upon the Musical Play
 
-## THE ADVENTURES OF VIM
+## **THE ADVENTURES OF VIM**
 
 
 ### ~
