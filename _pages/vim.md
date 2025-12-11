@@ -415,7 +415,7 @@ But we shall return when the union should start
 
 ### Vim ponders a life or death decision
 
-> While this matchmaking has been going on, CHERMIONE has been sentenced to death for the murders of BELLAMIE and DIAPHANOUS. WINKIPOP [off stage] is announcing the news and calling for a volunteer to take CHERMIONE's place at the chopping block. Should a volunteer come forward, CHERMIONE's life will be spared.
+> While this matchmaking has been going on, CHERMIONE has been sentenced to death for the murders of BELLAMIE and DIAPHANOUS. WINKIPOP [off stage] is announcing the news and calling for a volunteer to sacrifice themselves in CHERMIONE's place. 
 
 Not much too later, a voice could be heard  
 WINKIPOP, roaming, was spreading the word

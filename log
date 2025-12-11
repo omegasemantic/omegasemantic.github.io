@@ -1,7 +1,0 @@
-Configuration file: /home/simon/projects/omega/_config.yml
-            Source: /home/simon/projects/omega
-       Destination: /home/simon/projects/omega/_site
- Incremental build: disabled. Enable with --incremental
-      Generating... 
-                    done in 0.151 seconds.
- Auto-regeneration: enabled for '/home/simon/projects/omega'
