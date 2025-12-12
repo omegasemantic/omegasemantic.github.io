@@ -516,7 +516,7 @@ In the forest, and no more entitled a throne
 
 ### A message is tragically misunderstood and Vim has to make an impossible choice
 
-> We're back at VIM's place. It's nearly midnight and so nearly time for the wedding. HIKO's message is completely misunderstood. Thinking their offer of self-sacrifice has been accepted, VIM decides on poison. It mean death to DIAPHANOUS, who has but until midnight to be wed.
+> We're back at VIM's place. HIKO's message is completely misunderstood. Thinking their offer of self-sacrifice has been accepted, VIM decides on poison. It means death to DIAPHANOUS as well, who has but until midnight to be wed. When TRUE LOVE and TRUE IDENTITY collide, the FATES demand an IMPOSSIBLE CHOICE!
 
 HIKO flew home, and thus informed VIM:  
 CHERMIONE will live!  
