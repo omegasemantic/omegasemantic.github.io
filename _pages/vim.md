@@ -467,7 +467,7 @@ And offer my own, p'haps deluded, instead
 
 ### Chaos at the execution and Chermione is punished by The Gods
 
-> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with a HEART THAT IS TRUE, and the curse is lifted. WINKIPOP spikes CHERMIONE's drink.
+> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with a HEART THAT IS TRUE, and the curse is lifted. 
 
 THE GODS heard the offer, their manner insouciant  
 As beings omniscient, they had some presentiment
