@@ -227,7 +227,7 @@ WINKIPOP stole THE ELIXIR OF LIFE!
 
 ###  The Evil Twins taunt Vim and The Queen of the Night tries to help
 
-> We see a magical forest glen. We meet VIM, who is painting at an easel. We see the QUEEN OF THE NIGHT watching on from the side. What does VIM yearn for? Love? Identity? The EVIL TWINS jump up to yell taunts at VIM. They run away laughing. The QUEEN OF THE NIGHT approaches.
+> We see a magical forest glen. We meet VIM, who is painting at an easel. We see the QUEEN OF THE NIGHT watching on from the side. The EVIL TWINS jump up to yell taunts at VIM. They run away laughing. The QUEEN OF THE NIGHT approaches.
 
 We are now in the forest. Lo! We meet VIM  
 A FAIRY, a CHANGELING, who could not fit in
@@ -415,7 +415,7 @@ But we shall return when the union should start
 
 ### Vim ponders a life or death decision
 
-> While this matchmaking has been going on, CHERMIONE has been sentenced to death for the murders of BELLAMIE and DIADEMUS. WINKIPOP [off stage] is announcing the news and calling for a volunteer to sacrifice themselves in CHERMIONE's place.
+> While this matchmaking is going on, the GODS sentence CHERMIONE to death for the murders of BELLAMIE and DIADEMUS. WINKIPOP [off stage] is announcing the news and calling for a volunteer to sacrifice themselves in CHERMIONE's place.
 
 Not much too later, a voice could be heard  
 WINKIPOP, roaming, was spreading the word
@@ -467,7 +467,7 @@ And offer my own, p'haps deluded, instead
 
 ### Chaos at the execution and Chermione is punished by The Gods
 
-> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with a HEART THAT IS TRUE, and the curse is lifted. 
+> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with a HEART THAT IS TRUE, and the curse is lifted.
 
 THE GODS heard the offer, their manner insouciant  
 As beings omniscient, they had some presentiment
@@ -516,7 +516,7 @@ In the forest, and no more entitled a throne
 
 ### A message is misunderstood and TRAGEDY ensues.
 
-> We're back at VIM's place. HIKO's message is completely misunderstood. Thinking their offer of self-sacrifice has been accepted, VIM decides on poison. It means death to DIAPHANOUS as well, who has but until midnight to be wed. When TRUE LOVE and TRUE IDENTITY collide the FATES demand an IMPOSSIBLE CHOICE!
+> We're back at VIM's place. HIKO's message is completely misunderstood. Thinking their offer of self-sacrifice has been accepted, VIM decides on poison. It means death to DIAPHANOUS as well, who has but until midnight to be wed.
 
 HIKO flew home, and thus informed VIM:  
 CHERMIONE will live!  
