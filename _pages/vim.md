@@ -63,7 +63,7 @@ THE CHORUS: a choir
 # PROLOGUE
 
 
-## EXT. A MAGICAL FOREST SCENE - DAWN.
+## EXT. A MAGICAL FOREST SCENE - DAWN
 
 ### Two fairy children are captured and enslaved
 
@@ -154,7 +154,7 @@ I could not care less for this other you boast
 ### ~
 
 
-## SCENE 2. INT. CHERMIONE'S CASTLE - DAWN.
+## SCENE 2. INT. CHERMIONE'S CASTLE - DAWN
 
 ### The Queen Of The Night gives magical help and CHERMIONE makes a plan to outwit the ghost
 
@@ -223,7 +223,7 @@ WINKIPOP stole THE ELIXIR OF LIFE!
 
 ### ~
 
-## SCENE 3.EXT. FOREST. DAWN.
+## SCENE 3.EXT. FOREST - DAWN
 
 ###  The Evil Twins taunt Vim and The Queen of the Night tries to help
 
@@ -265,7 +265,7 @@ If you just go away, and I must, I will answer the call
 
 ### ~
 
-## SCENE 4. INT. OR EXT. NIGHT.
+## SCENE 4. INT. OR EXT - NIGHT
 
 ### The Wedding Royale ends badly
 
@@ -294,7 +294,7 @@ The CHOSEN ONE turned to a FROG
 
 ### ~
 
-## SCENE 5. EXT. FOREST. NIGHT.
+## SCENE 5. EXT. FOREST - NIGHT
 
 ### Vim and Chermione have an encounter in the forest
 
@@ -327,7 +327,7 @@ They fell into each others arms
 
 ### ~
 
-## SCENE 6. CONTINUING EXT. FOREST. A LITTLE BIT LATER. NIGHT.
+## SCENE 6. CONTINUING EXT. FOREST. A LITTLE BIT LATER - NIGHT
 
 ### Diademus causes a terrible scene
 
@@ -367,7 +367,7 @@ VIM said: Perhaps this is best for us both
 
 # ACT TWO
 
-## SCENE 1. EXT. FOREST. DAWN.
+## SCENE 1. EXT. FOREST - DAWN
 
 ### Vim meets a new kind of friend and finds true love at last
 
@@ -463,11 +463,11 @@ And offer my own, p'haps deluded, instead
 
 ### ~
 
-## SCENE 4.EXT. TOWN SQUARE. NIGHT. LIT BY FLAMING TORCHES.
+## SCENE 4 .EXT. TOWN SQUARE. LIT BY FLAMING TORCHES - NIGHT 
 
 ### Chaos at the execution and Chermione is punished by The Gods
 
-> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with a HEART THAT IS TRUE, and the curse is lifted.
+> We're back at the town square for the execution. CHERMIONE hears VIM's offer, falls in love with VIM (who has a HEART THAT IS TRUE), and so the curse is lifted.
 
 THE GODS heard the offer, their manner insouciant  
 As beings omniscient, they had some presentiment
@@ -512,7 +512,7 @@ In the forest, and no more entitled a throne
 
 ### ~
 
-## SCENE 5.EXT. NIGHT. FOREST. FULL MOON. NEARLY MIDNIGHT.
+## SCENE 5. EXT. FOREST. FULL MOON. NEARLY MIDNIGHT - NIGHT 
 
 ### A message is misunderstood and TRAGEDY ensues.
 
@@ -603,7 +603,7 @@ And that will be the all
 
 ### ~
 
-## SCENE 6. EXT. DAWN. FOREST GLEN
+## SCENE 6. EXT. FOREST GLEN - DAWN 
 
 ### A miracle happens and all is revealed
 
