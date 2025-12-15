@@ -227,7 +227,7 @@ WINKIPOP stole THE ELIXIR OF LIFE!
 
 ###  The Evil Twins taunt Vim and The Queen of the Night tries to help
 
-> We see a magical forest glen. We meet VIM, who is painting at an easel. We see the QUEEN OF THE NIGHT watching on from the side. The EVIL TWINS jump up to yell taunts at VIM. They run away laughing. The QUEEN OF THE NIGHT approaches.
+> We see a magical forest glen. We meet VIM, who is painting at an easel. We see the QUEEN OF THE NIGHT watching on from the side. The EVIL TWINS jump up to yell taunts at VIM. The QUEEN OF THE NIGHT approaches.
 
 We are now in the forest. Lo! We meet VIM  
 A FAIRY, a CHANGELING, who could not fit in
@@ -463,7 +463,7 @@ And offer my own, p'haps deluded, instead
 
 ### ~
 
-## SCENE 4 .EXT. TOWN SQUARE. LIT BY FLAMING TORCHES - NIGHT 
+## SCENE 4. EXT. TOWN SQUARE. LIT BY FLAMING TORCHES - NIGHT 
 
 ### Chaos at the execution and Chermione is punished by The Gods
 
@@ -607,7 +607,7 @@ And that will be the all
 
 ### A miracle happens and all is revealed
 
-> The sun rises to reveal the site of the tragedy. CHERMIONE, now dressed in rags, staggers into view. The QUEEN OF THE NIGHT and WINKIPOP, magically appear, now decked with crowns and all the finery of FAIRY ROYALTY.
+> The sun rises to reveal the site of the tragedy. CHERMIONE, now dressed in rags, staggers into view, falls to knees crying out, "Noooo!". The QUEEN OF THE NIGHT and WINKIPOP, magically appear, now decked with crowns and all the finery of FAIRY ROYALTY.
 
 Now we see CHERMIONE, who crawls into the scene  
 Now we too see WINKIPOP, and now we see THE QUEEN
