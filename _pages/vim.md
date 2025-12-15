@@ -269,7 +269,7 @@ If you just go away, and I must, I will answer the call
 
 ### The Wedding Royale ends badly
 
-> We're at CHERMIONE's wedding ball. It's a festive party scene and VIM is working the tables.
+> We're at CHERMIONE's wedding ball. It's a festive party scene and VIM is working the tables. CHERMIONE weds the CHOSEN ONE.
 
 As VIM waited tables, CHERMIONE was able  
 To view and indenture a mate
