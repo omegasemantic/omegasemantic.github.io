@@ -607,7 +607,7 @@ And that will be the all
 
 ### A miracle happens and all is revealed
 
-> The sun rises to reveal the site of the tragedy. CHERMIONE, now dressed in rags, staggers into view, falls to knees crying out, "Noooo!". The QUEEN OF THE NIGHT and WINKIPOP, magically appear, now decked with crowns and all the finery of FAIRY ROYALTY.
+> The sun rises to reveal the site of the tragedy. We see CHERMIONE, now dressed in rags, who staggers into view and falls to knees crying out, "Noooo!". The QUEEN OF THE NIGHT and WINKIPOP, magically appear, now decked with crowns and all the finery of FAIRY ROYALTY.
 
 Now we see CHERMIONE, who crawls into the scene  
 Now we too see WINKIPOP, and now we see THE QUEEN
