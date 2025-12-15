@@ -463,7 +463,7 @@ And offer my own, p'haps deluded, instead
 
 ### ~
 
-## SCENE 4. EXT. TOWN SQUARE. LIT BY FLAMING TORCHES - NIGHT 
+## SCENE 4. EXT. TOWN SQUARE. LIT BY FLAMING TORCHES - NIGHT
 
 ### Chaos at the execution and Chermione is punished by The Gods
 
@@ -512,7 +512,7 @@ In the forest, and no more entitled a throne
 
 ### ~
 
-## SCENE 5. EXT. FOREST. FULL MOON. NEARLY MIDNIGHT - NIGHT 
+## SCENE 5. EXT. FOREST. FULL MOON. NEARLY MIDNIGHT - NIGHT
 
 ### A message is misunderstood and TRAGEDY ensues.
 
@@ -603,7 +603,7 @@ And that will be the all
 
 ### ~
 
-## SCENE 6. EXT. FOREST GLEN - DAWN 
+## SCENE 6. EXT. FOREST GLEN - DAWN
 
 ### A miracle happens and all is revealed
 
