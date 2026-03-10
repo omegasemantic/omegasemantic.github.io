@@ -21,6 +21,8 @@ permalink: /vim/
 
 ## **THE ADVENTURES OF VIM**
 
+## A semi-improvised tragedy (with songs) in the tradition of commedia dell'arte as if performed by a travelling baroque theatre troupe in a possible dystopian future
+
 
 ### ~
 
