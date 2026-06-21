@@ -3,11 +3,11 @@ layout: default
 title: lobby
 permalink: /lobby/
 ---
-<form action="mailto:simon.kearns@posteo.net" method="GET" enctype="text/plain">
+<form action="https://formspree.io/f/https://formspree.io/f/mjglnepa" method="POST">
   <input type="text" name="message">
   <button type="submit">Submit</button>
 </form>
-
+https://formspree.io/f/mjglnepa
 
 
 
