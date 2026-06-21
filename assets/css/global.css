@@ -46,8 +46,9 @@ body {
 
 body {
     font-family: 'Courier Prime', monospace, sans-serif;
+}
 
-h1,
+
 .logo {
     font-size: 1.1rem;
     color: #303030;
