@@ -5,9 +5,8 @@ permalink: /lobby/
 ---
 <form action="https://formspree.io/f/https://formspree.io/f/mjglnepa" method="POST">
   <input type="text" name="message">
-  <button type="submit">Submit</button>
+  <button type="submit">send</button>
 </form>
-https://formspree.io/f/mjglnepa
 
 
 
