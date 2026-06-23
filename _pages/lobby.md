@@ -3,13 +3,5 @@ layout: default
 title: lobby
 permalink: /lobby/
 ---
-<form action="https://formspree.io/f/mjglnepa" method="POST">
-  <input type="text" name="message">
-  <button type="submit">Send It</button>
-</form>
 
-
-[VIM & DIADEM OF DOOM PREVIEW](/vim/)
-
-
-
+> WAI arr 1122 23 mins: ON TRN Fruitvale 1027 OFF Wai  
