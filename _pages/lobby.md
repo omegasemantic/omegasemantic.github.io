@@ -1,7 +1,7 @@
 ---
 layout: default
 title: lobby
-permalink: /lobbybak/
+permalink: /lobby/
 ---
 <form action="https://formspree.io/f/mjglnepa" method="POST">
   <input type="text" name="message">
