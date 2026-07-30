@@ -48,6 +48,11 @@ body {
     font-family: 'Courier Prime', monospace, sans-serif;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
 
 .logo {
     font-size: 1.1rem;
@@ -96,7 +101,9 @@ body {
 blockquote {
     color: #303030;
     margin: 0;
-    font-style: italic;
+    padding-left: 1em;
+    border-left: 3px solid #ccc;
+    font-style: normal;
     max-width: 360px;
 }
 
@@ -106,7 +113,6 @@ blockquote p {
 blockquote p:empty {
     display: none;
 }
-
 /* === Main content (mobile-first) === */
 main {
     width: 100%;
