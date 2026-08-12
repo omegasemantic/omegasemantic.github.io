@@ -6,7 +6,7 @@ layout: default
 
 # :circumstance    
     
-I am a princess, said princess.    
+I am a princess, said the princess.    
 O holy heck, how I love to dance.    
     
 You are a wonderful dancer, I said.    
