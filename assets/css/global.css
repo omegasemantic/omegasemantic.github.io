@@ -102,7 +102,7 @@ blockquote {
     color: #303030;
     margin: 0;
     padding-left: 1em;
-    border-left: 3px solid #ccc;
+    border-left: 2px solid #ccc;
     font-style: normal;
     max-width: 360px;
 }
