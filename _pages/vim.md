@@ -1,4 +1,11 @@
-                      
+                      ---
+layout: page
+title: "Vim and Diadem of Doom"
+permalink: /lobby/vim/
+---
+
+# VIM AND DIADEM OF DOOM!
+...
                       
 # VIM AND DIADEM OF DOOM!                      
                       
