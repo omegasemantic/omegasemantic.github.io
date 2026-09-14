@@ -1,5 +1,5 @@
-                      ---
-layout: page
+---
+layout: default
 title: "Vim and Diadem of Doom"
 permalink: /lobby/vim/
 ---
