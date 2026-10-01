@@ -5,7 +5,7 @@ permalink: /lobby/
 ---
 
 
-[VIM & DIADEM OF DOOM PREVIEW](/vim/)
+[VIM & DIADEM OF DOOM PREVIEW](/lobby/vim/)
 
 
 
