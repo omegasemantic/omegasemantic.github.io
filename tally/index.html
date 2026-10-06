@@ -58,6 +58,8 @@
   td:first-child, th:first-child { text-align:left; }
   textarea { width:100%; height:110px; font-family:monospace; font-size:13px; margin-top:12px;
              -webkit-user-select:text; user-select:text; }
+  #csv { display:none; }
+  #csv.show { display:block; }
   .row { display:flex; gap:12px; margin-top:12px; }
   .row .btn { min-height:56px; font-size:18px; }
   .danger { background:var(--warn); color:#fff; }
@@ -82,6 +84,7 @@
     <textarea id="csv" readonly></textarea>
     <div class="row">
       <button class="btn danger" id="resetDay">Reset day</button>
+      <button class="btn close" id="csvBtn">Show CSV</button>
       <button class="btn close" id="closePanel">Close</button>
     </div>
   </div>
@@ -206,7 +209,19 @@ function showTotals() {
   panel.classList.add("open");
 }
 document.getElementById("totalsBtn").addEventListener("click", showTotals);
-document.getElementById("closePanel").addEventListener("click", () => panel.classList.remove("open"));
+
+const csvBox = document.getElementById("csv");
+const csvBtn = document.getElementById("csvBtn");
+function hideCsv() { csvBox.classList.remove("show"); csvBtn.textContent = "Show CSV"; }
+csvBtn.addEventListener("click", () => {
+  const showing = csvBox.classList.toggle("show");
+  csvBtn.textContent = showing ? "Hide CSV" : "Show CSV";
+});
+document.getElementById("closePanel").addEventListener("click", () => {
+  panel.classList.remove("open");
+  hideCsv();
+});
+
 document.getElementById("resetDay").addEventListener("click", () => {
   if (confirm("Clear all recorded totals for the day? This cannot be undone.")) {
     day = { orders: [] }; save(); showTotals();
