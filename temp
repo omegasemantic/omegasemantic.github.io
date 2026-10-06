@@ -1,0 +1,6 @@
+cd ~/sites/omega
+mkdir tally
+cp ~/posix/tally/tally.html tally/index.html
+git add tally
+git commit -m "Add tally page"
+git push

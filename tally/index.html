@@ -14,22 +14,23 @@
   body { display:flex; flex-direction:column; height:100dvh; padding:12px; gap:12px; }
 
   .grid { flex:1; display:grid; grid-template-columns:repeat(3, 1fr);
-          grid-template-rows:repeat(3, 1fr); gap:12px; min-height:0; }
+          grid-template-rows:repeat(4, 1fr); gap:10px; min-height:0; }
   .tile { background:var(--tile); border:3px solid #d8d3c6; border-radius:16px;
           display:flex; flex-direction:column; align-items:center; justify-content:center;
-          font:inherit; color:inherit; cursor:pointer; padding:8px;
-          position:relative; text-align:center; }
+          font:inherit; color:inherit; cursor:pointer; padding:4px; overflow:hidden;
+          position:relative; text-align:center; min-height:0; }
   .tile:active { background:#e8f2ee; }
   .tile.has { border-color:var(--accent); }
   .tile.empty { background:transparent; border:3px dashed #d8d3c6; cursor:default; }
-  .name { font-size:clamp(20px, 3.5vw, 36px); font-weight:600; }
-  .price { font-size:clamp(14px, 2vw, 20px); opacity:.6; }
-  .count { font-size:clamp(48px, 10vw, 110px); font-weight:700; line-height:1.1;
-           color:var(--accent); min-height:1.1em; }
-  .line { font-size:clamp(16px, 2.5vw, 26px); font-weight:600; min-height:1.2em; opacity:.7; }
+  .name { font-size:clamp(16px, min(3.2vw, 4vh), 32px); font-weight:600; line-height:1.1; }
+  .price { font-size:clamp(12px, min(2vw, 2.5vh), 18px); opacity:.6; line-height:1.1; }
+  .count { font-size:clamp(32px, min(9vw, 9vh), 84px); font-weight:700; line-height:1;
+           color:var(--accent); min-height:1em; }
+  .line { font-size:clamp(14px, min(2.4vw, 3vh), 24px); font-weight:600; min-height:1.1em;
+          line-height:1.1; opacity:.7; }
 
-  .minus { position:absolute; top:6px; right:6px; width:64px; height:64px;
-           font:inherit; font-size:34px; line-height:1; color:var(--ink);
+  .minus { position:absolute; top:4px; right:4px; width:56px; height:56px;
+           font:inherit; font-size:30px; line-height:1; color:var(--ink);
            background:rgba(0,0,0,.06); border:none; border-radius:12px;
            opacity:.55; cursor:pointer; visibility:hidden; }
   .minus:active { background:rgba(0,0,0,.2); opacity:1; }
@@ -39,11 +40,11 @@
            display:flex; align-items:center; justify-content:center;
            font-size:clamp(32px, 7vw, 64px); font-weight:700; }
   .btn { font:inherit; font-size:clamp(18px, 3vw, 28px); font-weight:600;
-         border:none; border-radius:16px; padding:0 28px; min-height:84px; cursor:pointer; }
+         border:none; border-radius:16px; padding:0 28px; min-height:76px; cursor:pointer; }
   .undo { background:#e4d9b8; color:var(--ink); }
   .next { background:var(--accent); color:#fff; }
   .small { background:transparent; border:2px solid #cfc9ba; color:var(--ink);
-           min-height:84px; padding:0 18px; font-size:16px; }
+           min-height:76px; padding:0 18px; font-size:16px; }
   .btn:active { filter:brightness(.9); }
 
   #panel { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none;
@@ -87,7 +88,7 @@
 </div>
 
 <script>
-/* ---- CONFIG: edit here. Up to 9 items (3 x 3 grid). ---- */
+/* ---- CONFIG: edit here. Up to 12 items (3 columns x 4 rows). ---- */
 const CONFIG = {
   currency: "$",
   storageKey: "tally-v1",
@@ -97,9 +98,9 @@ const CONFIG = {
     { id: "choc",  name: "Chocolate", price: 3 }
   ]
 };
-/* -------------------------------------------------------- */
+/* ------------------------------------------------------------------ */
 
-const SLOTS = 9;
+const SLOTS = 12;
 const cents = p => Math.round(p * 100);
 const money = c => CONFIG.currency + (c / 100).toFixed(2);
 const byId = Object.fromEntries(CONFIG.items.map(i => [i.id, i]));
