@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Tally</title>
+<style>
+  :root { --bg:#f4f1ea; --tile:#fff; --ink:#1d1d1b; --accent:#1f6f5c; --warn:#b5482a; }
+  * { box-sizing:border-box; -webkit-user-select:none; user-select:none;
+      touch-action:manipulation; -webkit-tap-highlight-color:transparent; }
+  html, body { height:100%; margin:0; background:var(--bg); color:var(--ink);
+               font-family:system-ui, -apple-system, sans-serif; }
+  body { display:flex; flex-direction:column; height:100dvh; padding:12px; gap:12px; }
+
+  .grid { flex:1; display:grid; grid-template-columns:repeat(3, 1fr);
+          grid-template-rows:repeat(3, 1fr); gap:12px; min-height:0; }
+  .tile { background:var(--tile); border:3px solid #d8d3c6; border-radius:16px;
+          display:flex; flex-direction:column; align-items:center; justify-content:center;
+          font:inherit; color:inherit; cursor:pointer; padding:8px;
+          position:relative; text-align:center; }
+  .tile:active { background:#e8f2ee; }
+  .tile.has { border-color:var(--accent); }
+  .tile.empty { background:transparent; border:3px dashed #d8d3c6; cursor:default; }
+  .name { font-size:clamp(20px, 3.5vw, 36px); font-weight:600; }
+  .price { font-size:clamp(14px, 2vw, 20px); opacity:.6; }
+  .count { font-size:clamp(48px, 10vw, 110px); font-weight:700; line-height:1.1;
+           color:var(--accent); min-height:1.1em; }
+  .line { font-size:clamp(16px, 2.5vw, 26px); font-weight:600; min-height:1.2em; opacity:.7; }
+
+  .minus { position:absolute; top:6px; right:6px; width:64px; height:64px;
+           font:inherit; font-size:34px; line-height:1; color:var(--ink);
+           background:rgba(0,0,0,.06); border:none; border-radius:12px;
+           opacity:.55; cursor:pointer; visibility:hidden; }
+  .minus:active { background:rgba(0,0,0,.2); opacity:1; }
+
+  .bar { display:flex; gap:12px; align-items:stretch; }
+  .total { flex:1; background:var(--ink); color:#fff; border-radius:16px;
+           display:flex; align-items:center; justify-content:center;
+           font-size:clamp(32px, 7vw, 64px); font-weight:700; }
+  .btn { font:inherit; font-size:clamp(18px, 3vw, 28px); font-weight:600;
+         border:none; border-radius:16px; padding:0 28px; min-height:84px; cursor:pointer; }
+  .undo { background:#e4d9b8; color:var(--ink); }
+  .next { background:var(--accent); color:#fff; }
+  .small { background:transparent; border:2px solid #cfc9ba; color:var(--ink);
+           min-height:84px; padding:0 18px; font-size:16px; }
+  .btn:active { filter:brightness(.9); }
+
+  #panel { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none;
+           align-items:center; justify-content:center; padding:20px; }
+  #panel.open { display:flex; }
+  .card { background:#fff; border-radius:16px; padding:20px; width:min(640px, 100%);
+          max-height:100%; overflow:auto; -webkit-user-select:text; user-select:text; }
+  .card h2 { margin:0 0 12px; }
+  table { width:100%; border-collapse:collapse; font-size:20px; }
+  td, th { padding:6px 4px; text-align:right; border-bottom:1px solid #eee; }
+  td:first-child, th:first-child { text-align:left; }
+  textarea { width:100%; height:110px; font-family:monospace; font-size:13px; margin-top:12px;
+             -webkit-user-select:text; user-select:text; }
+  .row { display:flex; gap:12px; margin-top:12px; }
+  .row .btn { min-height:56px; font-size:18px; }
+  .danger { background:var(--warn); color:#fff; }
+  .close { background:#ddd; color:var(--ink); }
+</style>
+</head>
+<body>
+
+<div class="grid" id="grid"></div>
+
+<div class="bar">
+  <button class="btn small" id="totalsBtn">Totals</button>
+  <button class="btn undo" id="undo">Undo</button>
+  <div class="total" id="total">$0.00</div>
+  <button class="btn next" id="next">Next customer</button>
+</div>
+
+<div id="panel">
+  <div class="card">
+    <h2>Day totals</h2>
+    <table id="tbl"></table>
+    <textarea id="csv" readonly></textarea>
+    <div class="row">
+      <button class="btn danger" id="resetDay">Reset day</button>
+      <button class="btn close" id="closePanel">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ---- CONFIG: edit here. Up to 9 items (3 x 3 grid). ---- */
+const CONFIG = {
+  currency: "$",
+  storageKey: "tally-v1",
+  items: [
+    { id: "beer",  name: "Beer",      price: 5 },
+    { id: "wine",  name: "Wine",      price: 8 },
+    { id: "choc",  name: "Chocolate", price: 3 }
+  ]
+};
+/* -------------------------------------------------------- */
+
+const SLOTS = 9;
+const cents = p => Math.round(p * 100);
+const money = c => CONFIG.currency + (c / 100).toFixed(2);
+const byId = Object.fromEntries(CONFIG.items.map(i => [i.id, i]));
+
+let order = [];                 // tap history for the current customer (supports undo)
+let day = load();               // { orders: [ {t, items:{id:qty}, cents} ] }
+
+function load() {
+  try { return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || { orders: [] }; }
+  catch (e) { return { orders: [] }; }
+}
+function save() {
+  try { localStorage.setItem(CONFIG.storageKey, JSON.stringify(day)); } catch (e) {}
+}
+function counts(list) {
+  const c = {};
+  list.forEach(id => c[id] = (c[id] || 0) + 1);
+  return c;
+}
+function orderCents(list) {
+  return list.reduce((s, id) => s + cents(byId[id].price), 0);
+}
+
+const grid = document.getElementById("grid");
+function buildGrid() {
+  grid.innerHTML = "";
+  for (let n = 0; n < SLOTS; n++) {
+    const item = CONFIG.items[n];
+    const el = document.createElement("div");
+    if (!item) { el.className = "tile empty"; grid.appendChild(el); continue; }
+    el.className = "tile";
+    el.dataset.id = item.id;
+    el.setAttribute("role", "button");
+    el.innerHTML = '<button class="minus" aria-label="Remove one"></button>' +
+                   '<div class="name"></div><div class="price"></div>' +
+                   '<div class="count"></div><div class="line"></div>';
+    el.querySelector(".minus").textContent = "\u21B6";
+    el.querySelector(".name").textContent = item.name;
+    el.querySelector(".price").textContent = money(cents(item.price));
+    el.addEventListener("click", () => { order.push(item.id); render(); });
+    el.querySelector(".minus").addEventListener("click", e => {
+      e.stopPropagation();
+      const i = order.lastIndexOf(item.id);
+      if (i > -1) { order.splice(i, 1); render(); }
+    });
+    grid.appendChild(el);
+  }
+}
+
+function render() {
+  const c = counts(order);
+  grid.querySelectorAll(".tile[data-id]").forEach(el => {
+    const q = c[el.dataset.id] || 0;
+    el.querySelector(".count").textContent = q || "";
+    el.querySelector(".line").textContent = q ? money(q * cents(byId[el.dataset.id].price)) : "";
+    el.querySelector(".minus").style.visibility = q ? "visible" : "hidden";
+    el.classList.toggle("has", q > 0);
+  });
+  document.getElementById("total").textContent = money(orderCents(order));
+}
+
+document.getElementById("undo").addEventListener("click", () => { order.pop(); render(); });
+
+document.getElementById("next").addEventListener("click", () => {
+  if (order.length) {
+    day.orders.push({ t: new Date().toISOString(), items: counts(order), cents: orderCents(order) });
+    save();
+  }
+  order = [];
+  render();
+});
+
+/* ---- Totals panel ---- */
+const panel = document.getElementById("panel");
+function showTotals() {
+  const qty = {}, sum = {};
+  let grand = 0;
+  CONFIG.items.forEach(i => { qty[i.id] = 0; sum[i.id] = 0; });
+  const lines = ["time,item,qty,cents"];
+  day.orders.forEach(o => {
+    grand += o.cents;
+    Object.entries(o.items).forEach(([id, q]) => {
+      if (!byId[id]) return;
+      qty[id] += q; sum[id] += q * cents(byId[id].price);
+      lines.push([o.t, id, q, q * cents(byId[id].price)].join(","));
+    });
+  });
+  const tbl = document.getElementById("tbl");
+  tbl.innerHTML = "<tr><th>Item</th><th>Qty</th><th>Value</th></tr>";
+  CONFIG.items.forEach(i => {
+    const tr = document.createElement("tr");
+    [i.name, qty[i.id], money(sum[i.id])].forEach(v => {
+      const td = document.createElement("td"); td.textContent = v; tr.appendChild(td);
+    });
+    tbl.appendChild(tr);
+  });
+  const tr = document.createElement("tr");
+  ["Total (" + day.orders.length + " orders)", "", money(grand)].forEach(v => {
+    const td = document.createElement("td"); td.style.fontWeight = "700"; td.textContent = v; tr.appendChild(td);
+  });
+  tbl.appendChild(tr);
+  document.getElementById("csv").value = lines.join("\n");
+  panel.classList.add("open");
+}
+document.getElementById("totalsBtn").addEventListener("click", showTotals);
+document.getElementById("closePanel").addEventListener("click", () => panel.classList.remove("open"));
+document.getElementById("resetDay").addEventListener("click", () => {
+  if (confirm("Clear all recorded totals for the day? This cannot be undone.")) {
+    day = { orders: [] }; save(); showTotals();
+  }
+});
+
+buildGrid();
+render();
+</script>
+</body>
+</html>
