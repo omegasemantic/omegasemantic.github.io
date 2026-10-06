@@ -1,5 +1,5 @@
 # id | name | price
-beer|Beer|5
-wine|Wine|8
+beer|Beer|6
+wine|Wine|9
 choc|Chocolate|3
 cider|Cider|2.5
