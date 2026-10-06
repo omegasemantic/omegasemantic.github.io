@@ -60,8 +60,8 @@
              -webkit-user-select:text; user-select:text; }
   #csv { display:none; }
   #csv.show { display:block; }
-  .row { display:flex; gap:12px; margin-top:12px; }
-  .row .btn { min-height:56px; font-size:18px; }
+  .row { display:flex; flex-wrap:wrap; gap:12px; margin-top:12px; }
+  .row .btn { min-height:56px; font-size:18px; padding:0 18px; }
   .danger { background:var(--warn); color:#fff; }
   .close { background:#ddd; color:var(--ink); }
 </style>
@@ -85,6 +85,7 @@
     <div class="row">
       <button class="btn danger" id="resetDay">Reset day</button>
       <button class="btn close" id="csvBtn">Show CSV</button>
+      <button class="btn close" id="copyBtn">Copy CSV</button>
       <button class="btn close" id="closePanel">Close</button>
     </div>
   </div>
@@ -212,11 +213,30 @@ document.getElementById("totalsBtn").addEventListener("click", showTotals);
 
 const csvBox = document.getElementById("csv");
 const csvBtn = document.getElementById("csvBtn");
+const copyBtn = document.getElementById("copyBtn");
 function hideCsv() { csvBox.classList.remove("show"); csvBtn.textContent = "Show CSV"; }
 csvBtn.addEventListener("click", () => {
   const showing = csvBox.classList.toggle("show");
   csvBtn.textContent = showing ? "Hide CSV" : "Show CSV";
 });
+
+copyBtn.addEventListener("click", async () => {
+  const text = csvBox.value;
+  let ok = false;
+  try { await navigator.clipboard.writeText(text); ok = true; } catch (e) {}
+  if (!ok) {
+    /* Fallback: reveal the box and select the text so it can be copied by hand */
+    csvBox.classList.add("show");
+    csvBtn.textContent = "Hide CSV";
+    csvBox.focus();
+    csvBox.select();
+    csvBox.setSelectionRange(0, text.length);
+    try { ok = document.execCommand("copy"); } catch (e) {}
+  }
+  copyBtn.textContent = ok ? "Copied" : "Copy failed";
+  setTimeout(() => { copyBtn.textContent = "Copy CSV"; }, 2000);
+});
+
 document.getElementById("closePanel").addEventListener("click", () => {
   panel.classList.remove("open");
   hideCsv();
