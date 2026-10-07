@@ -3,3 +3,5 @@ beer|Beer|6
 wine|Wine|9
 choc|Chocolate|3
 cider|Cider|2.5
+lo_beer|Lite Beer|6.5
+peanuts|Peanuts|3.75
